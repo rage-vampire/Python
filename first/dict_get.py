@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @file   : dict_1.py
+# @file   : dict_get.py
 # @author : lizi
-# @date   : 2019/9/23
+# @date   : 2019/9/24
 # @version: 1.0
 # @desc   :
 
@@ -25,8 +25,11 @@ labels = {
 }
 name = input('Name:')
 request = input('Phone number (p) or address (a)?')
+key = None
 if request == 'p':key = 'phone'
 if request == 'a':key = 'addr'
-if name in people:print("{}`s {} is {}".format(name,labels[key],people[name][key]))
-else:
-    print("name does not exist ,Please re-enter!")
+person = people.get(name,{})
+label = labels.get(name,key)
+result = person.get(key,'not available')
+print("{}`s {} is {}.".format(name,label,result))
+
