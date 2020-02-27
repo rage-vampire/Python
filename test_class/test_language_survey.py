@@ -5,15 +5,17 @@
 
 from survey import AnonymousSurvey
 import unittest
-
+import pysnooper
 
 class TestAnonymousSurvey(unittest.TestCase):
+    @pysnooper.snoop()
     def test_store_single_response(self):
         question = "What language did you first learn to speak?"
         my_survey = AnonymousSurvey(question)
         my_survey.show_responses('English')
         self.assertIn('English',my_survey.responses)
 
+    @pysnooper.snoop()
     def test_store_three_response(self):
         question = "What language did you first learn to speak?"
         my_survey = AnonymousSurvey(question)
