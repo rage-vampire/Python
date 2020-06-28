@@ -1,0 +1,205 @@
+syntax = "proto3";
+
+package eddid.common;
+option java_multiple_files = true;
+
+enum RetCode
+{
+    UNKNOWN_CODE = 0;
+    SUCCESS = 1;
+    FAILURE = 2;
+}
+
+// 合约类型
+enum InstrType
+{
+    UNKNOWN_INSTR = 0;         // 未知类型
+    NORMAL       = 1;          // 普通合约
+    COMB         = 2;          // 组合合约
+}
+
+// 合约状态 
+enum InstrStatusType
+{
+    UNKNOWN_STATUS = 0;     // 未上市
+    STARTED   = 1;          // 上市
+    TRADING   = 2;          // 可交易
+    PAUSE     = 3;          // 停牌
+    DELIVERY  = 4;          // 交割
+    EXPIRED   = 5;          // 到期
+    DELISTING = 6;          // 退市
+    SUSPEND   = 7;          // 休市
+    LOCKED    = 8;          // 锁定
+    FUSING    = 9;          // 熔断
+}
+
+// 保证金收取方式
+enum InstrRateType
+{ 
+    UNKNOWN_RATE  = 0;             // 未知 
+    BY_COST  = 1;             // 按金额收取    
+    BY_VOL   = 2;             // 按手数收取
+}
+
+// 交易所定义
+enum ExchangeType
+{
+    UNKNOWN  = 0;           // 未知
+    SHFE     = 1;           // 上海期货交易所
+    DCE      = 2;           // 大连商品交易所
+    CZCE     = 3;           // 郑州商品交易所
+    CFFEX    = 4;           // 中国金融期货交易所
+    INE      = 5;           // 上海能源交易所
+    SSE      = 6;           // 上海证券交易所
+    SZSE     = 7;           // 深圳证券交易所
+    BOCE     = 8;           // 渤海商品交易所
+    SGE      = 9;           // 上海黄金交易所
+    NYMEX    = 10;          // 纽约商品交易所
+    COMEX    = 11;          // 纽约黄金交易所
+    CBOT     = 12;          // 芝加哥商品交易所
+    CME      = 13;          // 芝加哥商品交易所
+    SGX      = 14;          // 新加坡交易所
+    SEHK     = 15;          // 香港证券交易所
+    HKFE     = 16;          // 香港期货交易所
+    ASE      = 17;          // 美国证券交易所
+    ASX      = 18;          // 澳大利亚证券交易所
+    BMD      = 19;          // 马来西亚衍生品交易所
+    CBOE     = 20;          // 芝加哥期权交易所
+    DGCX     = 21;          // 迪拜黄金与商品交易所
+    DME      = 22;          // 迪拜商品交易所
+    EUREX    = 23;          // 欧洲衍生商品交易所
+    EURONEXT = 24;          // 泛欧交易所
+    ICCA     = 25;          // ICE加拿大期货交易所
+    ICEU     = 26;          // ICE欧洲期货交易所
+    ICSG     = 27;          // ICE新加坡交易所
+    ICUS     = 28;          // ICE美国期货交易所
+    LME      = 29;          // 伦敦金属交易所
+    OSE      = 30;          // 大阪交易所
+    TAIFEX   = 31;          // 台湾期货交易所
+    TFEX     = 32;          // 泰国期货交易所
+    TOCOM    = 33;          // 东京商品交易所
+    TSE      = 34;          // 东京证券交易所
+}
+
+// 币种定义
+enum CurrencyType
+{
+    CurrencyNA = 0 ;               // 未知货币
+    CNY        = 1 ;               // 人民币
+    USD        = 2 ;               // 美金
+    HKD        = 3 ;               // 港币
+    EUR        = 4 ;               // 欧元
+    GBP        = 5 ;               // 英镑
+    JPY        = 6 ;               // 日元
+    AUD        = 7 ;               // 澳大利亚元
+    CAD        = 8 ;               // 加拿大元
+    CHF        = 9 ;               // 瑞士法郎
+    CNH        = 10;               // 中国离岸人民币
+    MYR        = 11;               // 马来西亚令吉
+    SGD        = 12;               // 新加坡元
+    TWD        = 13;               // 新台币
+}
+
+// 品种大类
+enum CategoryType
+{
+    UNKNOWN_CATEGORY      = 0;     // 未知
+    STOCKS                = 1;     // 股票
+    FUTURE                = 2;     // 期货
+    FOREX                 = 3;     // 外汇
+    BONDS                 = 4;     // 债券
+    FUNDS                 = 5;     // 基金
+    OPT                   = 6;     // 期权
+    SPOT_TRANS            = 7;     // 现货
+    SPOT                  = 8;     // 即期
+    EFP                   = 9;     // 期转现
+    
+    // add here
+}
+
+// 品种类型定义
+enum ProductType
+{
+    UNKNOWN_PRODUCT                 = 0;     // 未知
+    
+    // 注 1--- 10 期货子分类        
+    EQUITY_INDEX_FUTURE             = 1;     // 指数期货 
+    SINGLE_STOCK_FUTURE             = 2;     // 个股期货
+    FOREIGN_EXCHANGE_FUTURE         = 3;     // 外汇期货
+    INTEREST_RATE_FUTURE            = 4;     // 利率期货
+    COMMODITIES_FUTURE              = 5;     // 商品期货
+    ENERGY_CHEMICAL_FUTURE          = 6;     // 能源化工期货
+    METAL_FUTURE                    = 7;     // 金属期货
+    AGRICULTURAL_COMMODITY_FUTURE   = 8;     // 农产品期货
+    
+    // 11 --- 30 股票子分类
+    
+    // 31 --- 40 期权子分类
+    
+    // 41 --- 50 外汇子分类
+    
+    // 51 --- 70 债券子分类
+    
+    // 71 --- 90 基金子分类
+
+    // 91 --- 100 现货子分类
+    
+    // 101 --- 110 期转现子分类
+    
+    // add here
+}
+
+// 市场状态
+enum MarketStatus
+{
+    UNKNOWN_MARKET    = 0;   // 未知
+    MARKET_SUSPEND    = 1;   // 休市
+    BIDDING_PRICE     = 2;   // 竞价
+    OPEN_QUOTATION    = 3;   // 开盘
+    CLOSING_QUOTATION = 4;   // 收盘
+}
+
+// 合约品种交易状态
+enum ProductTradeStatus
+{
+    TRADE_NONE              = 0;   // 未知
+    TRADE_SUSPEND           = 1;   // 休市
+    TRADE_BIDDING           = 2;   // 竞价
+    TRADE_TRADING           = 3;   // 交易中
+    TRADE_STOP              = 4;   // 停牌
+}
+
+// 成交买卖方向
+enum TicksDirect
+{
+    UNKNOWN_DIRECT    = 0;   // 未知
+    BUY               = 1;   // 买盘
+    SELL              = 2;   // 卖盘
+    NO_STATE          = 3;   // 无状态
+}
+
+enum TimeZone
+{
+    TimeZone_NA = 0;
+    GMT = 1;   // 格林威治时间
+    CCT = 2;   // +8:00 中国沿海时间
+    EDT = 3;   // -4:00 美国东部夏令时
+    EST = 4;   // -5:00 美国东部标准时间
+    CDT = 5;   // -5:00 美国中部夏令时
+    CST = 6;   // -6:00 美国中部标准时间
+    MDT = 7;   // -6:00 美国山地夏令时
+    MST = 8;   // -7:00 美国山地标准时间  
+    PDT = 9;   // -7:00 美国太平洋夏令时
+    PST = 10;  // -8:00 美国太平洋标准时间
+    //TODO
+
+}
+
+
+// 合约显示类型
+enum InstrDisplay
+{
+    DISPLAY_NA        = 0;   // 未知
+    ESSEN             = 1;   // 易盛
+    INTERNAT          = 2;   // 国标
+}

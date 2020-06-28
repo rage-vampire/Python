@@ -1,0 +1,177 @@
+syntax = "proto3";
+
+import "common_type_def.proto";
+
+package eddid.common;
+option java_multiple_files = true;
+
+// 心跳请求
+message HeartReqMsg
+{
+    uint64 conn_id = 1;        // 占位符,连接ID 
+}
+    
+// 心跳应答 
+message HeartRspMsg
+{
+    uint64 conn_id = 1;        // 占位符
+}
+
+// 测速请求
+message VelocityReqMsg
+{
+    uint64 start_time  = 1;    // 开始测速时间辍 精确到ms
+}
+
+// 测速应答
+message VelocityRspMsg
+{
+    uint64 start_time = 1;     // 开始测速时间辍 精确到ms
+    uint64 recv_time  = 2;     // 接收到消息的时间 精确到ms
+    uint64 send_time  = 3;     // 发送时间 精确到ms
+}
+
+
+// 交易时间片定义
+message TradingTimespin
+{
+    uint32 start = 1;           // 开始时间 101010 10:10:10 
+    uint32 end   = 2;           // 结束时间 101010 10:10:10 
+}
+
+// 市场下单限制 
+message InstrOrderLimit
+{
+    uint32  max_order_qty = 1;    // 最大下单量
+    uint32  min_order_qty = 2;    // 最小下单量 
+}
+
+// 合约基本信息
+message InstrBaseInfo
+{
+    InstrType          instr_type      = 1;       // 合约类型 
+    ExchangeType       exchange        = 2;       // 交易所
+    string             series_id       = 3;       // 合约序列
+    string             instr_code      = 4;       // 合约代码
+    string             internal_code   = 5;       // 国标类型合约代码
+    string             counter_code    = 6;       // 柜台类型合约代码
+    string             cn_simple_name  = 7;       // 品种简体简称
+    string             tc_simple_name  = 8;       // 品种繁体简称
+    string             en_simple_name  = 9;       // 品种英文简称
+    string             cn_full_name    = 10;      // 品种简体全称
+    string             tc_full_name    = 11;      // 品种繁体全称 
+    string             en_full_name    = 12;      // 品种英文全称
+    CurrencyType       settle_currency = 13;      // 结算币种
+    CurrencyType       trade_currency  = 14;      // 交易币种
+}
+
+// 品种信息
+message ProductInfo
+{
+    CategoryType                   category_type  = 1;              // 品种大类
+    ProductType                    product_type   = 2;              // 品种类型
+    string                         code           = 3;              // 品种代码
+    string                         cn_simple_name = 4;              // 品种简体简称
+    string                         tc_simple_name = 5;              // 品种繁体简称
+    string                         en_simple_name = 6;              // 品种英文简称
+    string                         cn_full_name   = 7;              // 品种简体全称
+    string                         tc_full_name   = 8;              // 品种繁体全称 
+    string                         en_full_name   = 9;              // 品种英文全称
+    string                         timespin       = 10;             // 时间片
+    repeated TradingTimespin       call_market    = 11;             // 集合竞价时间片
+    repeated TradingTimespin       trade          = 12;             // 交易时间片
+}
+
+// 合约信息
+message InstrumentInfo
+{
+    InstrBaseInfo          base                 = 1;              // 合约基本信息
+    ProductInfo            proc                 = 2;              // 合约品种信息
+    uint32                 lot_size             = 3;              // 合约规模
+    uint64                 price_tick           = 4;              // 最小变动单位
+    uint64                 denoinator           = 5;              // 报价分母
+    bool                   trade_able           = 6;              // 是否可交易
+    uint32                 precision            = 7;              // 精度 
+    InstrStatusType        status               = 8;              // 合约状态 
+    string                 create_date          = 9;              // 合约创建日期
+    string                 open_date            = 10;             // 合约上市日期
+    uint64                 update_stamp         = 11;             // 合约更新日期 精确到日
+    TimeZone               time_zone            = 12;             // 合约所在时区
+    uint32                 price_tick_precision = 13;              // 最小被变动单位精度
+
+    // 使用oneof做特例化处理
+    oneof instrData
+    {
+        StockInstr stock   = 30;                         // 证券
+        FutureInstr future = 31;                         // 期货
+        OptionInstr opt    = 32;                         // 期权 
+        ForexInstr  forex  = 33;                         // 外汇
+        // TODO: 增加一个子类合约
+    }
+}
+
+// 证券合约特定信息
+message StockInstr
+{
+    uint32 reserve = 1;   // 占位符
+}
+
+// 期货合约特定信息
+message FutureInstr
+{
+    InstrRateType       margin_rate_type    = 1;                   // 保证金收取方式 
+    uint64              long_margin         = 2;                   // 多头保证金率 用64位整型表示浮点数据，解决传输中可能丢失精度的问题               
+    uint64              short_margin        = 3;                   // 空头保证金率
+    InstrOrderLimit     market_order_qty    = 4;                   // 市价单下单限制
+    InstrOrderLimit     limit_order_qty     = 5;                   // 限价单下单限制 
+    uint64              contract_multiplier = 6;                   // 合约数量乘数 合约数量乘数 = 合约乘数*每点价值
+    uint32              deliver_year        = 7;                   // 交割年
+    uint32              deliver_month       = 8;                   // 交割月
+    bool                is_enable           = 9;                   // 是否过期
+    bool                is_master_instr     = 10;                  // 是否是主力合约
+    string              related_instr       = 11;                  // 主力合约的对应合约
+    string              last_trade_date     = 12;                  // 最后交易日 YYYYMMDD
+    string              notify_date         = 13;                  // 首次通知日(最后交易日前的第一个通知) YYYYMMDD
+    string              expire_date         = 14;                  // 到期日 YYYYMMDD
+    uint32              expire_month        = 15;                  // 到期月份
+    string              begin_deliver_date  = 16;                  // 开始交割日期 YYYYMMDD
+    string              end_deliver_date    = 17;                  // 结束交割日期 YYYYMMDD
+}
+
+// 期权合约特定信息 
+message OptionInstr
+{
+    string              underlying_code     = 1;                // 标的
+    ExchangeType        underlying_exchange = 2;                // 标的所在的交易所
+    InstrRateType       margin_rate_type    = 3;                // 保证金收取方式 
+    uint64              long_margin         = 4;                // 多头保证金率               
+    uint64              short_margin        = 5;                // 空头保证金率   
+    InstrOrderLimit     market_order_qty    = 6;                // 市价单下单限制
+    InstrOrderLimit     limit_order_qty     = 7;                // 限价单下单限制 
+    uint64              contract_multiplier = 8;                // 合约数量乘数 合约数量乘数 = 合约乘数*每点价值
+    uint32              deliver_year        = 9;                // 行权年
+    uint32              deliver_month       = 10;               // 行权月
+    bool                is_enable           = 11;               // 是否过期
+    string              last_trade_date     = 13;               // 最后交易日
+    string              notify_date         = 14;               // 首次通知日(最后交易日前的第一个通知)
+    string              expire_date         = 15;               // 到期日
+    uint32              expire_month        = 16;               // 到期月份
+    string              begin_deliver_date  = 17;               // 开始行权日期
+    string              end_deliver_date    = 18;               // 结束行权日期
+}
+
+// 外汇合约特定信息
+message ForexInstr
+{
+    uint32 reserve = 1;   // 占位符
+}
+
+//TODO: 注：当发生一种物定合约信息时，在此增加子分类
+//----------------------------
+
+// 合约信息数组
+message InstrumentInfos
+{
+    repeated InstrumentInfo infos = 1;
+}
+

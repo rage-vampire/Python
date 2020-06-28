@@ -1,0 +1,864 @@
+syntax = "proto3";
+
+import "common_type_def.proto";
+import "quote_type_def.proto"; 
+import "common_msg_def.proto"; 
+
+package eddid.quote;
+option java_multiple_files = true;
+
+enum ProtoVersion
+{   
+    VERSION_0 = 0;
+    VERSION_1 = 1;          // 当前协议版本
+}
+
+message QuoteMsgCarrier
+{
+    uint64       id   = 1;      // 消息id
+    QuoteMsgType type = 2;      // 行情消息类型
+    ProtoVersion version = 3;   // 协议版本号 
+    bytes        data = 4;      // 行情数据
+}
+
+message RetResult
+{
+    common.RetCode ret_code    = 1;  // 返回码
+    string         ret_msg     = 2;  // 返回信息
+}
+
+
+//----------用户登录-----------
+message LoginReq
+{
+    string user_name      = 1;  // 用户名 clientID
+    string auto_token     = 2;  // 登录鉴权token
+    uint32 frequence      = 3;  // 移动端数据更新频率，每秒更新的次数
+    
+    uint64 start_time_stamp = 4;
+}
+
+message LoginRsp
+{
+    RetResult  ret_result  = 1;      // 返回结果
+    string     user_name   = 2;      // 用户名
+    
+    uint64   start_time_stamp = 3;   // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =4; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 5;     // 发送数据的时间戳
+
+}
+//-----------------------------
+
+//----------用户登出------------
+message LogoutReq
+{
+    string user_name = 1;   // 用户名
+    uint64 start_time_stamp = 3;
+}
+
+message LogoutRsp
+{
+    RetResult ret_result  = 1;  // 返回结果
+    string    user_name   = 2;  // 用户名
+    
+    uint64    start_time_stamp = 3;   // 发起请求的时间戳 UTC时间戳
+    uint64    recv_req_time_stamp =4; // 接收到请求的时间戳
+    uint64    rsp_time_stamp = 5;     // 发送数据的时间戳
+}
+//-----------------------------------------------------------
+
+//----------合约同步--------------------------------------------
+message SyncInstrReq
+{
+    SyncInstrMsgType type     = 1;   // 同步方式
+    uint64           date_time = 2;  // 上次同步日期
+    uint64 start_time_stamp = 3;
+}
+
+message SyncInstrRsp
+{
+    RetResult               ret_result  = 1;   // 返回结果
+    repeated common.InstrumentInfo  instruments = 2;   // 合约信息
+    
+    uint64    start_time_stamp = 3;   // 发起请求的时间戳 UTC时间戳
+    uint64    recv_req_time_stamp =4; // 接收到请求的时间戳
+    uint64    rsp_time_stamp = 5;     // 发送数据的时间戳
+}
+//----------------------------------------------------------------
+
+//----------静态数据同步--------------------------------------------
+message SyncBasicReq
+{
+    SyncInstrMsgType type      = 1;   // 同步方式
+    uint64           date_time = 2;   // 上次同步日期
+    uint64    start_time_stamp = 3;
+}
+
+message SyncBasicRsp
+{
+    RetResult                    ret_result   = 1;      // 返回结果
+    repeated QuoteBasicInfo      basic_infos  = 2;     // 合约信息
+    
+    uint64                       start_time_stamp    = 3;    // 发起请求的时间戳 UTC时间戳
+    uint64                       recv_req_time_stamp = 4;    // 接收到请求的时间戳
+    uint64                       rsp_time_stamp      = 5;    // 发送数据的时间戳
+}
+
+//----------快照数据请求--------------------------------------------
+message SnapshotReq
+{
+    SyncInstrMsgType type      = 1;   // 同步方式
+    uint64           date_time = 2;   // 上次同步日期
+    uint64    start_time_stamp = 3;
+}
+
+message SnapshotRsp
+{
+    RetResult                    ret_result          = 1;    // 返回结果
+    repeated QuoteSnapshot       snapshot_Infos      = 2;    // 合约信息
+    
+    uint64                       start_time_stamp    = 3;    // 发起请求的时间戳 UTC时间戳
+    uint64                       recv_req_time_stamp = 4;    // 接收到请求的时间戳
+    uint64                       rsp_time_stamp      = 5;    // 发送数据的时间戳
+}
+
+//----------------------------------------------------------------
+
+//------------ 手机图表数据获取-------------------------------------
+message StartChartDataReq
+{
+    common.ExchangeType   exchange    = 1;      // 交易所
+    string                code        = 2;      // 合约代码
+    uint64                start_time  = 3;      // 起始时间
+    uint64                start_time_stamp = 4; // 发起请求的时间 
+}
+
+message StartChartDataRsp
+{
+    RetResult              ret_result  = 1;    // 返回结果
+    common.ExchangeType    exchange    = 2;    // 交易所
+    string                 code        = 3;    // 合约代码
+    
+    uint64    start_time_stamp = 4;   // 发起请求的时间戳 UTC时间戳
+    uint64    recv_req_time_stamp =5; // 接收到请求的时间戳
+    uint64    rsp_time_stamp = 6;     // 发送数据的时间戳
+    
+    QuoteBasicInfo         basic_data  = 7;   // 静态数据
+    QuoteSnapshot          snapshot    = 8;   // 快照数据
+    QuoteOrderBookData     orderbook   = 9;   // 盘口
+    repeated QuoteTradeData  trade_data  = 10;   // 逐笔成交数据
+    repeated KlineDataMin    kline_min   = 11;  // 分时数据
+}
+
+message StopChartDataReq
+{
+    common.ExchangeType  exchange         = 1;    // 交易所
+    string               code             = 2;    // 合约代码
+    uint64               start_time_stamp = 3;    // 发起请求的时间戳 UTC时间戳
+}
+
+message StopChartDataRsp
+{
+    RetResult             ret_result     = 1;    // 返回结果
+    common.ExchangeType   exchange       = 2;    // 交易所
+    string                code           = 3;    // 合约代码
+
+    uint64   start_time_stamp       = 4;   // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp    = 5;   // 接收到请求的时间戳
+    uint64   rsp_time_stamp         = 6;   // 发送数据的时间戳
+}
+
+//----------------------------------------------------------
+
+//--------分时数据查询------------------------------------------
+
+message QueryKLineMinMsgReq
+{
+    bool                  isSubKLineMin = 1;    // 是否订阅KLineMin
+    common.ExchangeType   exchange      = 2;    // 交易所
+    string                code          = 3;    // 合约代码
+    QueryKLineMsgType     type          = 4;    // 获取K线的方式
+    QueryKLineDirectType  direct        = 5;    // 查询K线的方向 
+    uint64                start         = 6;    // 开始时间
+    uint64                end           = 7;    // 结束时间
+    uint64                vol           = 8;    // 按量查询时此字段表示多少根
+    uint64                start_time_stamp = 9; // 发起请求的时间戳 UTC时间戳
+}
+
+
+//---------------五日分时数据查询---------------------------------
+message QueryFiveDaysKLineMinReq
+{
+    bool                  isSubKLineMin = 1;    // 是否订阅KLineMin
+    common.ExchangeType   exchange      = 2;    // 交易所
+    string                code          = 3;    // 合约代码 
+    uint64                start         = 6;    // 开始时间
+    uint64                start_time_stamp = 9; // 发起请求的时间戳 UTC时间戳
+}
+
+message QueryFiveDaysKLineMinRsp
+{
+    RetResult             ret_result  = 1;           // 返回结果
+    common.ExchangeType   exchange    = 2;           // 交易所
+    string                code        = 3;           // 合约代码
+    
+    uint64   start_time_stamp    = 4;                // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp = 5;                // 接收到请求的时间戳
+    uint64   rsp_time_stamp      = 6;                // 发送数据的时间戳
+    
+    repeated KlineDataMin data        = 7;           // 分时数据
+}
+
+// 分时数据 
+message KlineDataMin
+{
+    int64     high             = 1;  // 高
+    int64     open             = 2;  // 开
+    int64     low              = 3;  // 低
+    int64     close            = 4;  // 收
+    int64     average          = 5;  // 均价
+    uint64    vol              = 6;  // 成交量
+    int64     rise_fall        = 7;  // 涨跌
+    int64     r_f_ratio        = 8;  // 涨跌幅
+    uint64    update_date_time = 9;  // 更新日期时间
+    uint64    settlement_price = 10; // 结算价
+}
+
+message QueryKLineMinMsgRsp
+{
+    RetResult             ret_result  = 1;           // 返回结果
+    common.ExchangeType   exchange    = 2;           // 交易所
+    string                code        = 3;           // 合约代码
+    
+    uint64   start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =5; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 6;   // 发送数据的时间戳
+    
+    repeated KlineDataMin data        = 7;           // 分时数据
+}
+
+message PushKLineMinData
+{
+    common.ExchangeType   exchange    = 1;           // 交易所
+    string                code        = 2;           // 合约代码
+    repeated KlineDataMin data        = 3;           // 分时数据
+}
+
+message SubscribeKlineMinReq
+{
+    common.ExchangeType   exchange     = 1;           // 交易所
+    string                code         = 2;           // 合约代码
+    
+    uint64                start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+}
+
+
+message SubscribeKlineMinRsp
+{
+    common.ExchangeType   exchange    = 1;           // 交易所
+    string                code        = 2;           // 合约代码
+    RetResult             ret_result  = 3;           // 返回结果
+    
+    uint64   start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =5; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 6;   // 发送数据的时间戳
+}
+
+message UnsubscribeKlineMinReq
+{
+    common.ExchangeType   exchange    = 1;           // 交易所
+    string                code        = 2;           // 合约代码
+    
+    uint64                start_time_stamp = 3; // 发起请求的时间戳 UTC时间戳
+}
+
+message UnsubscribeKlineMinRsp
+{
+    common.ExchangeType   exchange    = 1;           // 交易所
+    string                code        = 2;           // 合约代码
+    RetResult             ret_result  = 3;           // 返回结果
+    
+    uint64   start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =5; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 6;   // 发送数据的时间戳
+}
+
+//------------------------------------------------------------
+
+//----------K线查询------------
+message QueryKLineMsgReq
+{
+    bool                  isSubKLine   = 1;    // 查询KLine时是否订阅KLine数据
+    common.ExchangeType   exchange     = 2;    // 交易所
+    string                code         = 3;    // 合约代码
+    KLinePeriodType       peroid_type  = 4;    // 频率
+    QueryKLineMsgType     type         = 5;    // 获取K线的方式
+    QueryKLineDirectType  direct       = 6;    // 查询K线的方向 
+    uint64                start        = 7;    // 开始时间
+    uint64                end          = 8;    // 结束时间
+    uint64                vol          = 9;    // 此字段表示查询K线的量
+    
+    uint64                start_time_stamp = 10; // 发起请求的时间戳 UTC时间戳
+}
+
+// K线数据  
+message KlineData
+{
+    int64     high             = 1;  // 高
+    int64     open             = 2;  // 开
+    int64     low              = 3;  // 低
+    int64     close            = 4;  // 收
+    uint64    curr_vol         = 5;  // 当前这一笔K线的成交量
+    uint64    vol              = 6;  // 累计到当前这一笔K线的总成交量
+    uint64    open_interest    = 7;  // 持仓量
+    int64     amount           = 8;  // 成交金额
+    int64     rise_fall        = 9;  // 涨跌
+    int64     r_f_ratio        = 10; // 涨跌幅
+    int64     settlement_price = 11; // 结算价  注：只在日以上K线有用
+    int64     pre_settlement   = 12; // 昨结   注：只在日以上K线有用
+    int64     pre_close        = 13; // 昨收   注：只在日以上K线有用
+    uint64    update_date_time = 14; // 更新日期时间
+    KLinePeriodType peroid_type = 15; // 频率
+    uint64    KLineKey          = 16; // K线组成存储key的唯一标识
+}
+
+message QueryKLineMsgRsp
+{
+    RetResult             ret_result  = 1;           // 返回结果
+    common.ExchangeType   exchange    = 2;           // 交易所
+    string                code        = 3;           // 合约代码
+    KLinePeriodType       peroid_type = 4;           // 频率
+    repeated KlineData    kData       = 5;           // K线数据
+    
+    uint64   start_time_stamp = 6; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =7; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 8;   // 发送数据的时间戳
+}
+//------------------------------
+
+
+
+//----------历史K线加载------------
+message QueryKLineHisReq
+{
+    common.ExchangeType   exchange     = 1;    // 交易所
+    string                code         = 2;    // 合约代码
+    KLinePeriodType       peroid_type  = 3;    // 频率
+    QueryKLineMsgType     type         = 4;    // 获取K线的方式
+    QueryKLineDirectType  direct       = 5;    // 查询K线的方向 
+    uint64                start        = 6;    // 开始时间
+    uint64                end          = 7;    // 结束时间
+    uint64                vol          = 8;    // 此字段表示查询K线的量
+}
+
+// 历史K线数据
+message KlineDataHis
+{
+    common.ExchangeType   exchange = 1; // 交易所
+    string                code     = 2; // 合约代码
+    KLinePeriodType peroid_type    = 3; // 频率
+    repeated KlineData    kData    = 4; // K线数据
+}
+
+message QueryKLineHisRsp
+{
+    RetResult             ret_result  = 1;           // 返回结果
+    common.ExchangeType   exchange    = 2;           // 交易所
+    repeated KlineDataHis kDataHis    = 3;           // K线数据
+}
+//------------------------------
+
+
+message PushKLineData
+{
+    common.ExchangeType   exchange    = 1;           // 交易所
+    string                code        = 2;           // 合约代码
+    KLinePeriodType       peroid_type = 3;           // 频率
+    KlineData             kData       = 4;           // K线数据
+}
+
+//----------查询TICK------------
+message QueryTickMsgReq
+{
+    common.ExchangeType  exchange   = 1;           // 交易所
+    string               code       = 2;           // 合约代码
+    QueryKLineMsgType    type       = 4;           // 获取K线的方式
+    QueryKLineDirectType direct     = 5;           // 查询K线的方向 
+    uint64               start      = 6;           // 开始时间
+    uint64               end        = 7;           // 结束时间 
+    uint64               vol        = 8;           // 数量
+    uint64               start_time_stamp = 10; // 发起请求的时间戳 UTC时间戳
+}
+
+// tick数据
+message TickData
+{
+    int64          last             = 1;                        // 最新价
+    int64          high             = 2;                        // 最高价
+    int64          low              = 3;                        // 最低价
+    int64          turnover         = 4;                        // 成交金额
+    int64          average          = 5;                        // 均价
+    uint64         volume           = 6;                        // 成交量
+    uint64         open_interest    = 7;                        // 持仓量
+    int64          buy_price        = 8;                        // 当前盘口买价
+    int32          buy_volume       = 9;                        // 当前盘口买数量
+    int64          sell_price       = 10;                       // 当前盘口卖价
+    uint64         sell_volume      = 11;                       // 当前盘口卖数量
+    uint64         update_datetime  = 12;                       // 更新时间
+    uint32         last_update_mill = 13;                       // 最后更的毫秒数 
+}
+
+message QueryTickMsgRsp
+{
+    RetResult           ret_result = 1;           // 返回结果
+    common.ExchangeType exchange   = 2;           // 交易所
+    string              code       = 3;           // 合约代码
+    repeated TickData   tickData   = 4;           // tick数据
+    
+    uint64   start_time_stamp = 5; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =6; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 7;   // 发送数据的时间戳
+}
+
+message PushTickData
+{
+    common.ExchangeType exchange   = 1;           // 交易所
+    string              code       = 2;           // 合约代码
+    TickData            tickData   = 3;           // tick数据
+}
+//------------------------------
+
+//----------行情订阅------------
+message SubscribeQuoteMsgReq
+{
+   SubscribeMsgType                  sub_type   = 1;   // 行情订阅类型
+   SubChildMsgType                   child_type = 2;   // 行情订阅子类型
+   repeated SubscribeInstrBaseInfo   base_info  = 3;   // 合约信息
+   
+   uint64                            start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+}
+
+message SubscribeInstrBaseInfo
+{
+    common.ExchangeType exchange     = 1;           // 交易所
+    string              code         = 2;           // 合约代码
+    string              product_code = 3;           // 品种代码
+}
+
+message SubscribeQuoteMsgRsp
+{
+    RetResult         ret_result = 1;            // 返回结果
+    SubscribeMsgType  sub_type   = 2;            // 行情订阅类型
+    SubChildMsgType   child_type = 3;            // 行情订阅子类型
+    
+    uint64   start_time_stamp = 5; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =6; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 7;   // 发送数据的时间戳
+}
+//------------------------------
+
+//----------行情取消订阅----------
+message UnsubscribeQuoteMsgReq
+{
+   SubscribeMsgType                  sub_type   = 1;   // 行情订阅类型
+   SubChildMsgType                   child_type = 2;   // 行情订阅子类型
+   repeated SubscribeInstrBaseInfo   base_info  = 3;   // 合约信息
+   uint64                            start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+}
+
+message UnsubscribeQuoteMsgRsp
+{
+    RetResult ret_result = 1;            // 返回结果
+    uint64   start_time_stamp = 2; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =3; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 4;   // 发送数据的时间戳
+}
+//------------------------------
+
+//---------K线订阅-------------
+message SubscribeKLineMsgReq
+{
+    KLinePeriodType       peroid_type = 1;   // 频率
+    repeated SubscribeInstrBaseInfo   base_info  = 2;   // 合约信息
+    
+    uint64                            start_time_stamp = 3; // 发起请求的时间戳 UTC时间戳
+}
+
+message SubscribeKLineMsgRsp
+{
+    RetResult                ret_result  = 1;     // 返回结果
+
+    uint64   start_time_stamp    = 2;     // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp = 3;     // 接收到请求的时间戳
+    uint64   rsp_time_stamp      = 4;     // 发送数据的时间戳
+}
+
+//----------取消K线订阅---------
+message UnSubscribeKLineMsgReq
+{
+    KLinePeriodType                   peroid_type = 1;   // 频率
+    repeated SubscribeInstrBaseInfo   base_info   = 2;   // 合约信息
+    uint64                            start_time_stamp = 3; // 发起请求的时间戳 UTC时间戳
+}
+
+message UnSubscribeKLineMsgRsp
+{
+    RetResult ret_result = 1;            // 返回结果
+    uint64   start_time_stamp = 2; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =3; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 4;   // 发送数据的时间戳
+}
+
+//----------开盘通知----------
+message QuoteOpen
+{
+    common.ExchangeType exchange      = 1;      // 交易所
+    common.TradingTimespin  init      = 2;      // 初始化开始时间 101010 10:10:10 
+    common.TradingTimespin  action    = 3;      // 竟价开始时间 101010 10:10:10 
+    common.TradingTimespin  day       = 4;      // 日盘开始时间 101010 10:10:10 
+    common.TradingTimespin  night     = 5;      // 夜盘开始时间 101010 10:10:10 
+}
+//----------------------------
+
+//----------收盘通知----------
+
+//----------------------------
+
+// 行情数据公共头
+message QuoteCommonInfo
+{
+    common.ExchangeType exchange     = 1;  // 交易所
+    string              product_code = 2;  // 品种代码
+    string              instr_code   = 3;  // 合约代码
+    uint32              precision    = 4;  // 精度
+    
+    uint64              collector_recv_time = 5; // 数据采集接收到数据的时间戳
+    uint64              collector_send_time = 6; // 数据采集器发送数据的时间戳
+    uint64              publisher_recv_time = 7; // 订阅管理服务器接收数据的时间戳
+    uint64              publisher_send_time = 8; // 订阅管理器发送数据的时间戳
+}
+
+//-------推送行情静态数据-------
+message QuoteBasicInfo
+{
+    QuoteCommonInfo        common_info    = 1;       // 行情公共头
+    common.ProductType     type           = 2;       // 品种类型
+    string                 tradind_day    = 3;       // 交易日(yyyy-MM-dd)
+    string                 instr_name     = 4;       // 合约名称
+    string                 instr_en_name  = 5;       // 合约英文名称
+    string                 exchange_instr = 6;       // 合约在交易所的代码
+    common.MarketStatus    market_status  = 7;       // 市场状态
+    common.InstrStatusType instr_status   = 8;       // 合约状态 
+    
+    int64                  upper_limit    = 10;      // 涨停价
+    int64                  lower_limit    = 11;      // 跌停价
+    int64                  pre_close      = 12;      // 昨收价
+    string                 source         = 13;      // 行情源
+    uint64                 update_timestamp = 14;      // 行情更新时间
+    oneof data 
+    {
+        StockBasicInfo     stock  = 15;
+        FutureBasicInfo    future = 16;
+        OptionBasicInfo    opt    = 17;
+        ForeignExchangeBasicInfo forexs = 18;
+    }
+}
+
+// 股票静态数据
+message StockBasicInfo
+{
+    uint32 reverse = 1; // 占位符,待行情服务器通信协议制后添加对应字段 
+}
+
+// 期货静态数据 
+message FutureBasicInfo
+{
+    int64   pre_settlement_price = 1;   // 上次结算价
+    uint64  pre_open_interrest   = 2;   // 昨持仓量
+}
+
+// 期权静态数据
+message OptionBasicInfo
+{
+    uint32 reverse = 1; // 占位符,待行情服务器通信协议制后添加对应字段 
+}
+
+// 外汇静态数据 
+message ForeignExchangeBasicInfo
+{
+    uint32 reverse = 1; // 占位符,待行情服务器通信协议制后添加对应字段 
+}
+
+//----------------------------
+
+//-------推送行情快照数据-------
+// 行情快照数据 
+message QuoteSnapshot
+{
+    QuoteCommonInfo common_info         = 1; 
+    int64           open                = 2;                       // 开盘价
+    int64           high                = 3;                       // 最高价
+    int64           low                 = 4;                       // 最低价
+    int64           close               = 5;                       // 收盘价
+    int64           last                = 6;                       // 最新价
+    int64           normal              = 7;                       // 最新价(调整, 备用) ？？？？
+    int64           turnover            = 8;                       // 成交金额
+    uint64          volume              = 9;                       // 成交量
+    int64           average             = 10;                      // 当日均价
+    int64           rise_fall           = 11;                      // 涨跌
+    int64           r_f_ratio           = 12;                      // 涨跌幅
+    uint64          daily_increase      = 13;                      // 日增
+    uint64          source_update_time  = 15;                      // 源更新时间
+    
+    oneof data
+    {
+        StockSnapshot           stock   = 17;
+        FutureSnapshot          future  = 18;
+        OptionSnapshot          opt     = 19;
+        ForeignExchangeSnapshot forexs  = 20;
+    }
+}
+
+// 股票行情快照
+message StockSnapshot
+{
+    uint32 reverse = 1;                         // 占位符,待行情服务器通信协议制后添加对应字段 
+}
+
+// 期货快照
+message FutureSnapshot
+{
+    uint64  open_interrest   = 1;                // 持仓量
+    int64   settlement_price = 2;                // 结算价
+}
+
+// 期权
+message OptionSnapshot
+{
+    uint32 reverse = 1;                         // 占位符,待行情服务器通信协议制后添加对应字段 
+}
+
+// 外汇
+message ForeignExchangeSnapshot
+{
+    uint32 reverse = 1;                         // 占位符,待行情服务器通信协议制后添加对应字段 
+}
+//----------------------------
+
+//-------推送行情盘口数据-------
+// 盘口数据
+message QuoteOrderBookData
+{
+    QuoteCommonInfo common_info       = 1;
+    OrderBook       order_book        = 2; // 盘口数据
+    uint64          source_update_time = 3; // 交易所行情更新时间
+}
+// 盘口数据
+message OrderBookEntry
+{
+    int64   price      = 1;                     // 当前盘口价
+    uint64  volume     = 2;                     // 当前盘口数量
+    int32   order_count = 3;                    // 委托笔数
+}
+
+// 盘口列表
+message OrderBook
+{
+    int64 ask_vol = 1;                           // 卖盘量
+    int64 bid_vol = 2;                           // 买盘量
+
+    repeated OrderBookEntry asks_data = 3;       // 卖盘 
+    repeated OrderBookEntry bids_data = 4;       // 买盘
+}
+//----------------------------
+
+//-------推送行情逐笔成交数据-------
+// 逐笔数据
+message QuoteTradeData
+{
+    QuoteCommonInfo common_info        = 1;
+    TradeTick       trade_tick         = 2; // 逐笔成交数据
+    uint64          source_update_time = 3; // 交易所行情更新时间
+}
+
+// 逐笔成交数据
+message TradeTick
+{
+    int64              price    = 1;            // 成交价
+    uint64             vol      = 2;            // 成交量
+    uint64             time     = 3;            // 成交时间辍
+    common.TicksDirect direct   = 4;            // 成交买卖方向
+    oneof tradeType                             // 成交类型 
+    {
+        StockTradeType stock    = 5;
+        FutureTradeType future  = 6;
+    }
+}
+//----------------------------
+
+//----------逐笔成交查询------------
+message QueryTradeTickMsgReq
+{
+    bool                  isSubTrade  = 1;    // 是否订阅tadeTick
+    common.ExchangeType   exchange    = 2;    // 交易所
+    string                code        = 3;    // 合约代码
+    QueryKLineMsgType     type        = 4;    // 获取K线的方式
+    QueryKLineDirectType  direct      = 5;    // 查询逐笔成交的方向 
+    uint64                start       = 6;    // 开始时间(单位:毫秒)
+    uint64                end         = 7;    // 结束时间(单位:毫秒)
+    uint64                vol         = 8;    // 此字段表示查询逐笔成交的量
+    uint64                start_time_stamp = 9; // 发起请求的时间戳 UTC时间戳
+}
+
+
+message SubscribeTradeTickReq
+{
+    common.ExchangeType   exchange     = 1;           // 交易所
+    string                code         = 2;           // 合约代码
+    
+    uint64                start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+}
+
+
+message SubscribeTradeTickRsp
+{
+    common.ExchangeType   exchange    = 1;           // 交易所
+    string                code        = 2;           // 合约代码
+    RetResult             ret_result  = 3;           // 返回结果
+    
+    uint64   start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =5; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 6;   // 发送数据的时间戳
+}
+
+message UnsubscribeTradeTickReq
+{
+    common.ExchangeType   exchange    = 1;           // 交易所
+    string                code        = 2;           // 合约代码
+    
+    uint64                start_time_stamp = 3; // 发起请求的时间戳 UTC时间戳
+}
+
+message UnsubscribeTradeTickRsp
+{
+    common.ExchangeType   exchange    = 1;           // 交易所
+    string                code        = 2;           // 合约代码
+    RetResult             ret_result  = 3;           // 返回结果
+    
+    uint64   start_time_stamp = 4; // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp =5; // 接收到请求的时间戳
+    uint64   rsp_time_stamp = 6;   // 发送数据的时间戳
+}
+
+
+
+message QueryTradeTickMsgRsp
+{
+    RetResult           ret_result = 1;           // 返回结果
+    common.ExchangeType exchange   = 2;           // 交易所
+    string              code       = 3;           // 合约代码
+    repeated TradeTick  tickData   = 4;           // tick数据 
+    uint64   start_time_stamp      = 5;           // 发起请求的时间戳 UTC时间戳
+    uint64   recv_req_time_stamp   = 6;           // 接收到请求的时间戳
+    uint64   rsp_time_stamp        = 7;           // 发送数据的时间戳
+
+}
+//----------------------------
+
+//-------交易日历查询-------
+message QueryTradeDayReq
+{
+    QueryTradeDayType type       = 1; // 查询类型
+    common.ExchangeType exchange = 2; // 交易所
+    uint32 start_date            = 3; // 开始日期 YYYYMMDD
+    uint32 end_date              = 4; // 结束日期,类型为RANGE_QUERY时,查询结果为[start_date, end_day]
+    int32 addend                 = 5; // 加数,类型为PLUS_QUERY时,查询结果为[start_date, start_date+addend] or [start_date+addend, start_date]
+}
+
+message TradeDay
+{
+    uint32 date                           = 1; // 日期 YYYYMMDD
+    repeated common.TradingTimespin times = 2; // 这段时间内可以交易
+}
+
+message QueryTradeDayRsp
+{
+    RetResult ret_result         = 1; // 返回结果
+    common.ExchangeType exchange = 2; // 交易所
+    repeated TradeDay days       = 3;
+}
+//----------------------------
+
+//------- 汇率信息----------------
+message ExchangeRateInfo
+{
+    common.CurrencyType local_currency = 1;       // 本币 
+    uint64              exchangeRate   = 2;       // 汇率
+    common.CurrencyType target_currency = 3;      // 目标货币
+    uint32              precision      = 4;       // 精度
+}
+
+message QueryExchageRateReq
+{
+    common.CurrencyType target_currency = 1;  // 目标货币 如果不填，则返回所有
+}
+
+
+message QueryExchageRateRsp
+{
+    RetResult ret_result         = 1; // 返回结果
+    repeated ExchangeRateInfo rate = 2; // 汇率信息
+} 
+//------------------------------------
+
+
+//------- 合约排序 ----------------
+message QueryInstrSortReq
+{
+    QueryInstrSortType type = 1;     // 排序规则
+    QueryInstrSortCondition con = 2; // 排序条件
+}
+
+message SortInfo
+{
+    common.ExchangeType exchange     = 1;           // 交易所
+    string              code         = 2;           // 合约代码
+}
+
+message QueryInstrSortRsp
+{
+    RetResult ret_result         = 1; // 返回结果
+    repeated SortInfo infos      = 2; // 排序结果
+} 
+//------------------------------------
+
+
+//----------品种交易状态查询------------
+message QueryTradeStatusMsgReq
+{
+    common.ExchangeType        exchange     = 1;    // 交易所
+    repeated     string        productList  = 2;    // 品种列表（可为空，为空则查全市场品种）
+
+}
+
+// 交易状态
+message TradeStatusData
+{
+    common.ExchangeType        exchange    = 1;    // 交易所
+    string                     productCode = 2;    // 品种代码
+    common.ProductTradeStatus  status      = 3;    // 交易状态
+    uint64                     time_stamp  = 4;    // 状态变更的时间戳 UTC时间戳
+}
+
+message QueryTradeStatusMsgRsp
+{
+    RetResult                  ret_result  = 1;     // 返回结果
+    repeated TradeStatusData   data        = 2;     // 交易状态数据
+    
+}
+
+//----------------------------
+
+
+
