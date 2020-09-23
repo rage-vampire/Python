@@ -6,6 +6,7 @@
 
 from abc import abstractmethod
 from math import pi
+import sys
 
 
 class Shape():
