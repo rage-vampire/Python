@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_structure/dict_test/dict_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/dict_test/dict_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/list_test/list_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/inset_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/line_find.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/list_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/quick_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/selection_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sql_test/create_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sql_test/insert_into.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sql_test/modified.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sql_test/select_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sql_test/test.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/test.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,22 +56,24 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\03_Python\2020-9-13\SQL\sql_test" />
       <recent name="E:\03_Python\2020-9-13\data_structure\list_test" />
       <recent name="E:\03_Python\2020-9-13\lizi_practise" />
       <recent name="E:\Python\2020-9-13\lizi_practise" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.selection_sort">
-    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.modified">
+    <configuration name="create_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/sql_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/binary_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test/create_table.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inset_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="insert_into" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/sql_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/inset_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test/insert_into.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="line_find" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="modified" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/sql_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/line_find.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test/modified.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="select_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/sql_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/quick_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test/select_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sql_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/selection_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.selection_sort" />
-        <item itemvalue="Python.quick_sort" />
-        <item itemvalue="Python.inset_sort" />
-        <item itemvalue="Python.binary_search" />
-        <item itemvalue="Python.line_find" />
+        <item itemvalue="Python.modified" />
+        <item itemvalue="Python.select_data" />
+        <item itemvalue="Python.insert_into" />
+        <item itemvalue="Python.create_table" />
+        <item itemvalue="Python.sql_test" />
       </list>
     </recent_temporary>
   </component>
@@ -234,60 +234,72 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2022" y="111" key="#line_find/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602637741200" />
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1601383304022">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1841" y="217" key="DBNavigator.ConnectionInfoDialog" timestamp="1603093149659">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1841" y="217" key="DBNavigator.ConnectionInfoDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603093149659" />
+    <state x="1903" y="226" key="DBNavigator.DatasetFilterDialog" timestamp="1603107023761">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1903" y="226" key="DBNavigator.DatasetFilterDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603107023761" />
+    <state x="1751" y="253" key="DBNavigator.ProjectSettingsDialog" timestamp="1603106390845">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1751" y="253" key="DBNavigator.ProjectSettingsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603106390845" />
+    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1603106381239">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
-    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599984574727" />
-    <state width="1899" height="414" key="GridCell.Tab.0.bottom" timestamp="1602655497167">
+    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603106381239" />
+    <state width="1894" height="320" key="GridCell.Tab.0.bottom" timestamp="1603110483211">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288275" />
-    <state width="1899" height="414" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602655497167" />
-    <state width="1345" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602144152426" />
-    <state width="1899" height="414" key="GridCell.Tab.0.center" timestamp="1602655497167">
+    <state width="1894" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110483211" />
+    <state width="1345" height="89" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603074970922" />
+    <state width="1894" height="320" key="GridCell.Tab.0.center" timestamp="1603110483211">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1899" height="414" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602655497167" />
-    <state width="1345" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602144152425" />
-    <state width="1899" height="414" key="GridCell.Tab.0.left" timestamp="1602655497167">
+    <state width="1894" height="320" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110483211" />
+    <state width="1345" height="89" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603074970921" />
+    <state width="1894" height="320" key="GridCell.Tab.0.left" timestamp="1603110483211">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1899" height="414" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602655497167" />
-    <state width="1345" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602144152425" />
-    <state width="1899" height="414" key="GridCell.Tab.0.right" timestamp="1602655497167">
+    <state width="1894" height="320" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110483211" />
+    <state width="1345" height="89" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603074970920" />
+    <state width="1894" height="320" key="GridCell.Tab.0.right" timestamp="1603110483211">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1899" height="414" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602655497167" />
-    <state width="1345" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602144152426" />
-    <state width="1899" height="290" key="GridCell.Tab.1.bottom" timestamp="1602655494806">
+    <state width="1894" height="320" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110483211" />
+    <state width="1345" height="89" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603074970921" />
+    <state width="1899" height="290" key="GridCell.Tab.1.bottom" timestamp="1603092191831">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602655494806" />
+    <state width="1899" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603092191831" />
     <state width="1345" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1899" height="290" key="GridCell.Tab.1.center" timestamp="1602655494806">
+    <state width="1899" height="290" key="GridCell.Tab.1.center" timestamp="1603092191831">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602655494806" />
+    <state width="1899" height="290" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603092191831" />
     <state width="1345" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1899" height="290" key="GridCell.Tab.1.left" timestamp="1602655494806">
+    <state width="1899" height="290" key="GridCell.Tab.1.left" timestamp="1603092191831">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602655494806" />
+    <state width="1899" height="290" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603092191831" />
     <state width="1345" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1899" height="290" key="GridCell.Tab.1.right" timestamp="1602655494806">
+    <state width="1899" height="290" key="GridCell.Tab.1.right" timestamp="1603092191831">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602655494806" />
+    <state width="1899" height="290" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603092191831" />
     <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state x="288" y="17" key="SettingsEditor" timestamp="1602142772453">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1682" y="118" key="SettingsEditor" timestamp="1603094827770">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1771" y="85" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1600745254822" />
-    <state x="288" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602142772453" />
+    <state x="1682" y="118" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603094827770" />
+    <state x="141" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603075336391" />
     <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602639602097">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
