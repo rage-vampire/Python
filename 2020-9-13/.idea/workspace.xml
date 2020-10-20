@@ -20,14 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sql_test/create_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sql_test/insert_into.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sql_test/modified.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sql_test/select_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sql_test/test.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/test.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/mysql/create_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/mysql/sql_connect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/create_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/insert_into.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/modified.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/select_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/test.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/sql_test/create_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/sql_test/insert_into.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/sql_test/modified.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/sql_test/select_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/sql_test/test.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +78,8 @@
       <recent name="E:\Python\2020-9-13\lizi_practise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.modified">
-    <configuration name="create_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.create_table (1)">
+    <configuration name="create_table (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/sql_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/Mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test/create_table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/Mysql/create_table.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sql_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sql_connect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/Mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/Mysql/sql_connect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_table (1)" />
+        <item itemvalue="Python.sql_connect" />
         <item itemvalue="Python.modified" />
         <item itemvalue="Python.select_data" />
         <item itemvalue="Python.insert_into" />
-        <item itemvalue="Python.create_table" />
-        <item itemvalue="Python.sql_test" />
       </list>
     </recent_temporary>
   </component>
@@ -251,30 +257,30 @@
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603106381239" />
-    <state width="1894" height="320" key="GridCell.Tab.0.bottom" timestamp="1603110483211">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1339" height="182" key="GridCell.Tab.0.bottom" timestamp="1603165519033">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288275" />
-    <state width="1894" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110483211" />
-    <state width="1345" height="89" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603074970922" />
-    <state width="1894" height="320" key="GridCell.Tab.0.center" timestamp="1603110483211">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1894" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110592002" />
+    <state width="1339" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
+    <state width="1339" height="182" key="GridCell.Tab.0.center" timestamp="1603165519033">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1894" height="320" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110483211" />
-    <state width="1345" height="89" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603074970921" />
-    <state width="1894" height="320" key="GridCell.Tab.0.left" timestamp="1603110483211">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1894" height="320" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110592002" />
+    <state width="1339" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
+    <state width="1339" height="182" key="GridCell.Tab.0.left" timestamp="1603165519033">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1894" height="320" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110483211" />
-    <state width="1345" height="89" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603074970920" />
-    <state width="1894" height="320" key="GridCell.Tab.0.right" timestamp="1603110483211">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1894" height="320" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110592002" />
+    <state width="1339" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
+    <state width="1339" height="182" key="GridCell.Tab.0.right" timestamp="1603165519033">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1894" height="320" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110483211" />
-    <state width="1345" height="89" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603074970921" />
+    <state width="1894" height="320" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110592002" />
+    <state width="1339" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
     <state width="1899" height="290" key="GridCell.Tab.1.bottom" timestamp="1603092191831">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
