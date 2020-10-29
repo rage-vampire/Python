@@ -20,20 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SQL/mysql/create_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/mysql/sql_connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/create_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/insert_into.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/modified.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/select_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/sqllite3/test.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/openpyxl_test/openpyxl_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/openpyxl_test/test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/openpyxl_test/user_info.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanfang_depot/faker_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanfang_depot/user.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanfang_depot/user_info.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/sql_test/create_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/sql_test/insert_into.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/sql_test/modified.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/sql_test/select_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/sql_test/test.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/sql_test/insert_into.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/sql_test/insert_into.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,17 +62,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\03_Python\2020-9-13\modules\openpyxl_test" />
       <recent name="E:\03_Python\2020-9-13\SQL\sql_test" />
       <recent name="E:\03_Python\2020-9-13\data_structure\list_test" />
       <recent name="E:\03_Python\2020-9-13\lizi_practise" />
       <recent name="E:\Python\2020-9-13\lizi_practise" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.create_table (1)">
+  <component name="RunManager" selected="Python.openpyxl_test (1)">
     <configuration name="create_table (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="insert_into" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="faker_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/sql_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sanfang_depot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test/insert_into.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanfang_depot/faker_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="modified" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="faker_test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/sql_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sanfang_depot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test/modified.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanfang_depot/faker_test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="select_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openpyxl_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/sql_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/openpyxl_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/sql_test/select_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/openpyxl_test/openpyxl_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sql_connect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openpyxl_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/Mysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/Mysql/sql_connect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/openpyxl_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.openpyxl_test (1)" />
+        <item itemvalue="Python.faker_test" />
+        <item itemvalue="Python.faker_test2" />
+        <item itemvalue="Python.openpyxl_test" />
         <item itemvalue="Python.create_table (1)" />
-        <item itemvalue="Python.sql_connect" />
-        <item itemvalue="Python.modified" />
-        <item itemvalue="Python.select_data" />
-        <item itemvalue="Python.insert_into" />
       </list>
     </recent_temporary>
   </component>
@@ -227,15 +222,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="565" y="226" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1600845755520" />
-    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602127742858">
+    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603780599232">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602127742858" />
+    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603780599232" />
     <state x="410" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600939086933" />
-    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602128967862">
+    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603783610966">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602128967862" />
+    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603783610966" />
     <state x="2022" y="111" key="#line_find" timestamp="1602637741200">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -257,59 +252,59 @@
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603106381239" />
-    <state width="1339" height="182" key="GridCell.Tab.0.bottom" timestamp="1603165519033">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1893" height="250" key="GridCell.Tab.0.bottom" timestamp="1603941020883">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288275" />
-    <state width="1894" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110592002" />
+    <state width="1893" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603941020883" />
     <state width="1339" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1339" height="182" key="GridCell.Tab.0.center" timestamp="1603165519033">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1893" height="250" key="GridCell.Tab.0.center" timestamp="1603941020883">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1894" height="320" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110592002" />
+    <state width="1893" height="250" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603941020883" />
     <state width="1339" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1339" height="182" key="GridCell.Tab.0.left" timestamp="1603165519033">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1893" height="250" key="GridCell.Tab.0.left" timestamp="1603941020882">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1894" height="320" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110592002" />
+    <state width="1893" height="250" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603941020882" />
     <state width="1339" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1339" height="182" key="GridCell.Tab.0.right" timestamp="1603165519033">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1893" height="250" key="GridCell.Tab.0.right" timestamp="1603941020883">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1894" height="320" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603110592002" />
+    <state width="1893" height="250" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603941020883" />
     <state width="1339" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1899" height="290" key="GridCell.Tab.1.bottom" timestamp="1603092191831">
+    <state width="1893" height="201" key="GridCell.Tab.1.bottom" timestamp="1603885366516">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603092191831" />
+    <state width="1893" height="201" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603885366516" />
     <state width="1345" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1899" height="290" key="GridCell.Tab.1.center" timestamp="1603092191831">
+    <state width="1893" height="201" key="GridCell.Tab.1.center" timestamp="1603885366516">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603092191831" />
+    <state width="1893" height="201" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603885366516" />
     <state width="1345" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1899" height="290" key="GridCell.Tab.1.left" timestamp="1603092191831">
+    <state width="1893" height="201" key="GridCell.Tab.1.left" timestamp="1603885366516">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603092191831" />
+    <state width="1893" height="201" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603885366516" />
     <state width="1345" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1899" height="290" key="GridCell.Tab.1.right" timestamp="1603092191831">
+    <state width="1893" height="201" key="GridCell.Tab.1.right" timestamp="1603885366516">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603092191831" />
+    <state width="1893" height="201" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603885366516" />
     <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
     <state x="1682" y="118" key="SettingsEditor" timestamp="1603094827770">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1682" y="118" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603094827770" />
     <state x="141" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603075336391" />
-    <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602639602097">
+    <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603880391112">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602639602097" />
+    <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603880391112" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

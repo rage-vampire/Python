@@ -25,7 +25,7 @@ finally:
     conn.close()
 
 
-'''# 向表中插入一条数据cur.execute()'''
+'''# 向表中插入多条数据cur.execute()'''
 sql = 'insert into t_person (name,age) values (?,?)'
 name_list = [('李四', 25), ('小红', 24), ('小李', 12),('张三', 23)]
 try:
