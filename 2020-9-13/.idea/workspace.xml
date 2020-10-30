@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/openpyxl_test/openpyxl_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/openpyxl_test/test.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/openpyxl_test/user_info.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanfang_depot/faker_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanfang_depot/user.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanfang_depot/user_info.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/json_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/socket/TCP_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/socket/TCP_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/socket/socket_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/socket/socket_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphic/Duck.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/sql_test/insert_into.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/sql_test/insert_into.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -73,8 +72,8 @@
       <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.openpyxl_test (1)">
-    <configuration name="create_table (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.TCP_client">
+    <configuration name="TCP_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQL/Mysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL/Mysql/create_table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/socket/TCP_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="faker_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TCP_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sanfang_depot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanfang_depot/faker_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/socket/TCP_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="faker_test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="json_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sanfang_depot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/json" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanfang_depot/faker_test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json/json_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="openpyxl_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="socket_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/openpyxl_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/openpyxl_test/openpyxl_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/socket/socket_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="openpyxl_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="socket_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/openpyxl_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/socket/socket_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.openpyxl_test (1)" />
-        <item itemvalue="Python.faker_test" />
-        <item itemvalue="Python.faker_test2" />
-        <item itemvalue="Python.openpyxl_test" />
-        <item itemvalue="Python.create_table (1)" />
+        <item itemvalue="Python.TCP_client" />
+        <item itemvalue="Python.TCP_server" />
+        <item itemvalue="Python.socket_client" />
+        <item itemvalue="Python.socket_server" />
+        <item itemvalue="Python.json_test" />
       </list>
     </recent_temporary>
   </component>
@@ -247,54 +246,54 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1751" y="253" key="DBNavigator.ProjectSettingsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603106390845" />
-    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1603106381239">
+    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1604045931139">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
-    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603106381239" />
-    <state width="1893" height="250" key="GridCell.Tab.0.bottom" timestamp="1603941020883">
+    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045931139" />
+    <state width="1893" height="242" key="GridCell.Tab.0.bottom" timestamp="1604045933266">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288275" />
-    <state width="1893" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603941020883" />
+    <state width="1893" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933266" />
     <state width="1339" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="250" key="GridCell.Tab.0.center" timestamp="1603941020883">
+    <state width="1893" height="242" key="GridCell.Tab.0.center" timestamp="1604045933266">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="250" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603941020883" />
+    <state width="1893" height="242" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933266" />
     <state width="1339" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="250" key="GridCell.Tab.0.left" timestamp="1603941020882">
+    <state width="1893" height="242" key="GridCell.Tab.0.left" timestamp="1604045933266">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="250" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603941020882" />
+    <state width="1893" height="242" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933266" />
     <state width="1339" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="250" key="GridCell.Tab.0.right" timestamp="1603941020883">
+    <state width="1893" height="242" key="GridCell.Tab.0.right" timestamp="1604045933266">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="250" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603941020883" />
+    <state width="1893" height="242" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933266" />
     <state width="1339" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="201" key="GridCell.Tab.1.bottom" timestamp="1603885366516">
+    <state width="1893" height="270" key="GridCell.Tab.1.bottom" timestamp="1604045933259">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="201" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603885366516" />
+    <state width="1893" height="270" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
     <state width="1345" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="201" key="GridCell.Tab.1.center" timestamp="1603885366516">
+    <state width="1893" height="270" key="GridCell.Tab.1.center" timestamp="1604045933259">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="201" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603885366516" />
+    <state width="1893" height="270" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
     <state width="1345" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="201" key="GridCell.Tab.1.left" timestamp="1603885366516">
+    <state width="1893" height="270" key="GridCell.Tab.1.left" timestamp="1604045933259">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="201" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603885366516" />
+    <state width="1893" height="270" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
     <state width="1345" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="201" key="GridCell.Tab.1.right" timestamp="1603885366516">
+    <state width="1893" height="270" key="GridCell.Tab.1.right" timestamp="1604045933259">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="201" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603885366516" />
+    <state width="1893" height="270" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
     <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
     <state x="1682" y="118" key="SettingsEditor" timestamp="1603094827770">
       <screen x="1366" y="0" width="1920" height="1040" />

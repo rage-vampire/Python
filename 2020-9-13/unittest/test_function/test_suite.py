@@ -53,4 +53,4 @@ if __name__ == '__main__':
     #     runner.run(suites)
 
     result = BeautifulReport(suites)
-    result.report(filename="测试报告.excel", description="函数测试报告", report_dir='./', theme='theme_cyan')
+    result.report(filename="测试报告.excel", description="函数测试报告", report_dir='/', theme='theme_cyan')

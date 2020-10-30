@@ -11,6 +11,6 @@ if __name__ == '__main__':
     suite = unittest.TestSuite()
     tests = [ProductTestCase('test_int'),ProductTestCase("test_float")]
     suite.addTests(tests)
-    with open("test.txt",'a') as f:
+    with open("test.txt", 'a') as f:
         runner = unittest.TextTestRunner(stream=f,verbosity=2)
         runner.run(suite)
