@@ -3,18 +3,11 @@
 # @File  : unittest_test.py
 # @Author: Lizi
 # @Date  : 2020/11/2
+
 import unittest
-from test_unittest import my_math
 import pysnooper
+from test_unittest import my_math
 
-
-# class Test_function_demo(unittest.TestCase):
-#
-#     def setUp(self):
-#         print("-----------------init unit test----------------")
-#
-#     def tearDown(self):
-#         print("---------------------done---------------------")
 
 
 class Math_testcase(unittest.TestCase):

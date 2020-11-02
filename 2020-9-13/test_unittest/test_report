@@ -1,0 +1,17 @@
+setUp (unittest_testcase.Math_testcase) ... ok
+tearDown (unittest_testcase.Math_testcase) ... ok
+test_add_init (unittest_testcase.Math_testcase) ... ok
+test_sub_int (unittest_testcase.Math_testcase) ... ok
+test_sub_float (unittest_testcase.Math_testcase) ... ok
+test_sub_float2 (unittest_testcase.Math_testcase) ... ok
+test_multi_list (unittest_testcase.Math_testcase) ... ok
+test_multi_str (unittest_testcase.Math_testcase) ... ok
+test_div_int (unittest_testcase.Math_testcase) ... ok
+test_div_float (unittest_testcase.Math_testcase) ... ok
+test_div_float2 (unittest_testcase.Math_testcase) ... ok
+test_div_exception (unittest_testcase.Math_testcase) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.024s
+
+OK
