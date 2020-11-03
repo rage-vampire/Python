@@ -1,4 +1,0 @@
-pytest
-pytest-html
-pytest-xdist
-pytest-rerunfailures

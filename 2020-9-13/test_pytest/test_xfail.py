@@ -12,7 +12,6 @@ class TestCase():
     @pytest.mark.xfail(condition=1 < 2, reason="预期失败，执行失败")
     def test_case01(self):
         '''01预期失败，执行也是失败'''
-
         print('执行用例01......')
         assert 0
 
@@ -26,7 +25,7 @@ class TestCase():
     def test_case03(self):
         """03预期成功，实际执行结果也是成功"""
         print("执行用例03........")
-        assert 0
+        assert 1
 
     @pytest.mark.xfail(condition=1 > 2, reason="预期成功，执行失败")
     def test_case04(self):

@@ -9,10 +9,10 @@ import function_demo
 
 class Test_function_demo:
     def setup(self):
-        print("---------------------开始测试--------------------")
+        print("---------------------开始测试--------------------\n")
 
     def teardown(self):
-        print('----------------------done----------------------')
+        print('----------------------done----------------------\n')
 
     # @pytest.mark.slow
     def test_add_int(self):
@@ -24,6 +24,14 @@ class Test_function_demo:
 
     def test_add_string(self):
         assert (function_demo.add('aa', 'bb') == 'aabb')
+
+    def test_sub_int(self):
+        assert (function_demo.sub(10, 7) == 3)
+
+    @pytest.mark.xfail
+    def test_sub_float(self):
+        assert (function_demo.sub(10.79, 5.01) != 5.78)
+
 
 
 if __name__ == '__main__':
