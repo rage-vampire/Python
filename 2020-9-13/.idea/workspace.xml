@@ -20,13 +20,210 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/json/json_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/socket/TCP_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/socket/TCP_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/socket/socket_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/socket/socket_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polymorphic/Duck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/2020-9-13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2020-9-13.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/config/allure.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/behaviors-plugin/behaviors-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/custom-logo-plugin/custom-logo-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/jira-plugin/jira-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/junit-xml-plugin/junit-xml-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/packages-plugin/packages-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/packages-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/screen-diff-plugin/screen-diff-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/trx-plugin/trx-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/xctest-plugin/xctest-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/xray-plugin/xray-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/allure-2.10.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/function_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/00de6b43-4f7b-4fb4-92dd-fd3a81e41121-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/012affba-eaf2-47d9-a8ba-afa5944c9453-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/0206c578-aab9-4bcc-998f-c6b0b533cc3f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/02f554a3-b96e-404f-945a-141bc1362165-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/032e7a59-2600-48f7-8267-8900b7000e56-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/04ddbd2f-1601-4350-bd0a-ddf07ddc1a38-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/0557ed25-73be-42f9-97f3-67e12764e792-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/0801300b-3a2b-4840-acce-149120245ae0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/0c93adfb-cb50-4db1-ab80-10a6459c0119-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/0db6fb77-e222-40df-964a-92fab2eca156-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/0dccc764-1d3f-4ecc-b37e-3dd0ffa5e879-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/0ee6dd5a-9d00-4c2f-a206-95b9dfb5374c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/0eef2b6f-9382-41cc-9d65-24d3b765be99-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/1097860e-9adb-4a88-8719-c56a7e7675c8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/11fcc271-39f1-4b74-bdcf-08500e816fda-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/1367d1ef-f024-4a8e-a678-7a4266527443-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/13983594-f24f-4e09-a79f-687ca6ff1a92-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/17c02d37-162e-43a0-9d0d-0c0455562b87-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/1875ff01-3b7c-401e-9e0d-3142c656501b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/1b9573b2-0d26-4ac9-9ecb-8929a9f730c9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/1d3a394d-fd53-47f9-896d-122dbb7739f8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/23d714ea-95e3-4208-ac25-375712877b40-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/250d15cd-f3f7-49f2-93a1-e0a01668e070-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/26d417d8-ab1d-4805-95cc-da5243120ee6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/27254779-099c-4952-ab2b-c734f28f514d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/2742a20f-20cf-4bbb-9fa6-85c634e51089-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/295278e8-9d9e-4dd1-95b6-f2954b66fa39-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/2da73abb-8f4b-4286-a57d-f07425d91413-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/2fd9380f-dace-4c6f-9361-3609cb800ecf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/2fe238da-2e24-49ca-b9d3-1b52aa760764-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/36cab9b9-af59-4751-892f-4159f5649405-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/37e384f8-46a3-4e5c-853e-da2586432828-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/381f563e-5b1c-4e98-aab5-acf090d49b86-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/383cc3f2-2bcc-4ac1-946f-d97502673491-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/3aff8f49-4c3a-4f94-8b67-9aabed4a6790-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/3bc68587-6e8b-4aee-a458-77ee0e6cb4cf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/3f52024d-f432-4814-bc75-fbf4aa1678a9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/40a5890d-7f58-4f00-8e27-412d2ff6128e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/429f799a-0abe-4871-aa1c-e549344dbadd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/43add0c1-c3e5-40f8-a0e6-504ab2e833fb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/45d75b64-1477-4d09-98cd-e8f8181e3b40-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/4bb0ee70-1570-40f1-b9e9-11ed11173368-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/4c759261-51fa-4619-8386-ad6e1089df13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/500e9681-7d1c-432f-aa09-8552001ba396-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/50a65a8f-886b-4434-b9ba-78611d02b544-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/51c4bc00-d370-46a2-8d20-7e84c644f662-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/52b1b93d-d92f-4679-8fa8-e6f53fcd8f23-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/536a2973-ea30-4899-b45a-ed96aa202463-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/5418b34a-e576-42a1-86c8-cae7fd78a837-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/55a9848d-e67e-45b4-aa91-0965dc0d7bcc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/55ebaacc-29c3-423d-9c71-402a98be36fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/59a0d990-36e0-43ee-aeb4-75edf4f5f631-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/59b79cc2-ebb0-4d1e-997e-2510f764b7b6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/5b338585-41ba-45cf-ac45-4b0d538a8c8d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/5b433943-f67e-412a-9651-f4a27f622d2b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/5c11715b-7db1-4137-bc92-a000aea7b5cc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/5f544f3d-5758-429d-a9e2-2369e41c9cd5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/610e13ad-5427-46ec-8d1a-71ede7de6886-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/618cd8fd-a32c-4e0f-a8e9-7ee1fd2c657e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/61b72102-80e5-45c1-ae31-cdad774340b6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/63033041-e621-4878-8251-3b362998ada5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6479aa4a-3de9-4b33-bf25-070226556e58-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/65342c28-959f-427c-97d5-00555df72077-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/66d6d193-3476-4410-9e23-ad6a4c492209-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6750be4c-58fd-43fa-a036-17b9cd10c072-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/690574e2-97d6-4357-a956-f1ad7f3c6f0f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6984404a-8075-4605-9ee6-72a40991de5c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6a2a46c6-e460-450a-9190-bcf8bd0a5a44-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6c16ea79-0ae9-40fe-a329-3efe50f7e726-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6cb58fa1-fd1e-40b6-ae9d-08aba23778d6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6d600958-7816-48a5-b803-87d52d0fe42f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6da4008c-b1cd-4447-a1a4-409d706a2462-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6e4cb70d-15ee-4b59-8a24-bf19c4ecd179-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6e50399b-6747-4462-af85-ee6b86a45641-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6e89ee56-715a-4558-8f47-0c2bac886040-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6f75f3a5-fffe-48d3-84a3-468f4cc00837-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/6fe16f4e-c712-42aa-bbb7-5bb9d376e4c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/74c9cf75-e193-4665-b6c2-7204c6ff6367-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/791adf11-46c8-4b4e-911a-02ffb298b09d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/7a2fb208-9335-4c47-8e7f-cabb7df9734d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/7c2d87f2-f32f-4e28-a61e-4ae613cccfee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/7e24692c-aadf-4313-87a2-dda8f65d4964-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/7ffe2f12-cf61-4175-b277-382d3639ef8f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/8429773c-7d6b-4d78-88b4-6695ccebe45c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/859d2b79-4edf-4e71-8c78-fb11dd7030fa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/86b4561a-e32b-491b-8db1-64ea43935e64-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/87a2733a-0949-4c77-83dc-aa5faa0626ac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/889cc195-dedc-4b8d-ad32-5bd3f13ea45b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/89982e4d-bec6-4691-b1df-ffba44bbcabc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/8a50af8e-a220-45cf-9384-cd8c278703a9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/8b698935-9845-4c86-af52-bb73ae047e9b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/8c5cd002-8fce-4edd-8f39-104995125867-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/8e59874d-3dc4-466b-996f-74d9bdab16da-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/8eb884b8-78f5-46a0-a339-290aa8f2cab4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/8f71552f-bc60-4b21-87cf-015bf001bee8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/9088931a-559e-472b-b0b3-c0f39506731e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/91ac964a-065b-4b4d-9a60-e0d0acdc23d7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/91c294a0-9ca0-4367-ad0e-fb351e93f436-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/9251d98d-a074-4c28-9bec-b001b57aaea1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/926be1e3-86e0-4c88-8ceb-4879f5fb8a6b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/95efe88a-a5a8-4c59-a118-01c024120aa9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/96600cdf-cdc1-4f59-9748-5f5827f1a177-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/97035233-3ac3-495a-8116-8c2ba3035df5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/9fa9cddf-1cb3-40a2-9d34-e64361955a14-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/a6423c23-c679-4a4e-9c6e-4aea387b281c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/a7c0b555-0b1e-4477-b054-83d046cae58f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/a8508587-af42-45b2-aa06-0af895e6dab9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/aa1100ca-bd08-4f58-9bf8-b186f744a88d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/aa6e26ab-15ab-4988-978a-9210209ffaca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/aa90b107-ba53-4740-8310-45735f84f645-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/ace36731-f620-428f-8dd0-4b184a18ddf9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/aed9849f-5138-4739-a6ec-d8c2bdf80d2d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/aef86033-6e45-4eef-9c74-49fa1744d28f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/b199fc06-7349-473e-a169-f88e730b992c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/b210e390-ef96-4806-950b-1b62bd81d5eb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/b2e0430a-47cc-49b5-890e-63794e8d0b76-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/b4111172-e361-48ea-a83d-a87a205fe0ed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/b5a683cf-244d-4017-a00c-45a0f240116a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/b9225a41-b267-4f25-a256-cdc67bb2c973-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/bceed490-0768-40f7-8220-1694eb38c847-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/be19d14a-8cbd-4d7f-a7c3-c0c182e2927d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/c21c697c-868d-4cef-b4ef-425364b06ead-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/c22d015d-c96a-4f79-8d48-39a233be78f9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/c93268bb-682b-4015-8b55-09fbfcba1e4b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/c9eb51d8-b6eb-4f41-9cf9-f60be8dd2603-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/ccc1b156-48dc-4c32-ab7b-0e1726f28184-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/cd490936-ffee-4302-b8c6-8b1ee645e720-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/ce9cacfd-af3a-4cbc-b24e-9fbe892c75a4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/d2444964-c681-4df9-a55f-552cdcc80d6f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/d38d02e6-5d8c-4fe2-a5b6-725cebf22caa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/d95e9bb1-e751-4308-88db-2fe88883b658-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/dbfdf0a1-1408-4999-8d3c-ff544ce13c55-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/dc05533b-3e1c-424d-a1c0-a2950b013cc7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/dc3736b8-e877-4d22-8dba-c85bd58d010d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/dfd9964f-0433-44d4-b4b1-1a8ee39551c6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e15598d3-fde7-4f86-8893-4773b3c801a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e16fc939-31be-430f-8c53-ef07e52db823-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e19dc63f-3492-4f04-8c2e-85edf3dea5a0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e2610f41-db4a-49cd-ac2d-55b9bce94236-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e2eda36f-b8b7-47b8-9785-ae806d3dbea1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e32ed140-67ea-450c-aff9-f165d47b28fb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e480d9b1-48d3-4153-959f-4dabbd056ec9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e5a4872d-4176-4ea7-9330-7549c2823c77-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e89967e4-ae3e-4e08-8ca0-79a322f9b705-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e8e5ff7e-b3f2-4423-85eb-c44abf6b4e2d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/e91a9266-56fe-4e62-9c1b-0591f7a09596-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/ea789588-793e-45a1-96ed-890a0ea55cfa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/ebf17ba5-d17c-4655-9e21-769706310eab-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/ec96cba5-3189-4c6c-8358-9441504e3fed-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/edf1b278-7dfa-4781-86fc-f385447b6025-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/ee7c6dde-4aaf-4df3-90f5-b3793cec2e8d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/f70e52c5-8f01-4692-ad37-5e075afc9191-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/f8ca797f-27bf-41bf-b968-816554a4fa03-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/fad1f49e-a67c-4b54-ad33-32e5903e606b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/fb3b0441-34f9-48ef-9375-1d316137fab8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.html/fe102a9c-b692-4853-bd5b-77bb4648523a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/report/report.int(time.time()).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/test_case_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/test_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/test_leap_year.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/test_sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_test/test_xfail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_yll/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_yll/my_math.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_yll/unittest_test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +254,32 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_pytest" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="2020-9-13" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="2020-9-13" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\03_Python\2020-9-13\test_pytest" />
+      <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\03_Python\2020-9-13\test_unittest" />
       <recent name="E:\03_Python\2020-9-13\modules\openpyxl_test" />
       <recent name="E:\03_Python\2020-9-13\SQL\sql_test" />
       <recent name="E:\03_Python\2020-9-13\data_structure\list_test" />
       <recent name="E:\03_Python\2020-9-13\lizi_practise" />
-      <recent name="E:\Python\2020-9-13\lizi_practise" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TCP_client">
-    <configuration name="TCP_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_function (1)">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +287,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network/socket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/socket/TCP_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +300,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TCP_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_function (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +308,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network/socket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/socket/TCP_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/test_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +321,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="json_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +329,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json/json_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_test/test_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +342,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="socket_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_suit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +350,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network/socket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/socket/socket_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest/test_suit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +363,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="socket_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +371,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network/socket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_unittest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/socket/socket_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_unittest/test_suite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +386,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TCP_client" />
-        <item itemvalue="Python.TCP_server" />
-        <item itemvalue="Python.socket_client" />
-        <item itemvalue="Python.socket_server" />
-        <item itemvalue="Python.json_test" />
+        <item itemvalue="Python.test_function (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test_suite" />
+        <item itemvalue="Python.test_suit" />
+        <item itemvalue="Python.test_function" />
       </list>
     </recent_temporary>
   </component>
@@ -221,10 +427,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="565" y="226" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1600845755520" />
-    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603780599232">
+    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604314720583">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603780599232" />
+    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604314720583" />
     <state x="410" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600939086933" />
     <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603783610966">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -246,34 +452,34 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1751" y="253" key="DBNavigator.ProjectSettingsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603106390845" />
-    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1604045931139">
+    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1604299920742">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
-    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045931139" />
-    <state width="1893" height="242" key="GridCell.Tab.0.bottom" timestamp="1604045933266">
+    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604299920742" />
+    <state width="1893" height="288" key="GridCell.Tab.0.bottom" timestamp="1604319161286">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288275" />
-    <state width="1893" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933266" />
+    <state width="1893" height="288" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604319161286" />
     <state width="1339" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="242" key="GridCell.Tab.0.center" timestamp="1604045933266">
+    <state width="1893" height="288" key="GridCell.Tab.0.center" timestamp="1604319161286">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="242" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933266" />
+    <state width="1893" height="288" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604319161286" />
     <state width="1339" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="242" key="GridCell.Tab.0.left" timestamp="1604045933266">
+    <state width="1893" height="288" key="GridCell.Tab.0.left" timestamp="1604319161286">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="242" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933266" />
+    <state width="1893" height="288" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604319161286" />
     <state width="1339" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="242" key="GridCell.Tab.0.right" timestamp="1604045933266">
+    <state width="1893" height="288" key="GridCell.Tab.0.right" timestamp="1604319161286">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="242" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933266" />
+    <state width="1893" height="288" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604319161286" />
     <state width="1339" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
     <state width="1893" height="270" key="GridCell.Tab.1.bottom" timestamp="1604045933259">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -295,15 +501,23 @@
     </state>
     <state width="1893" height="270" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
     <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state x="1682" y="118" key="SettingsEditor" timestamp="1603094827770">
+    <state x="1682" y="118" key="SettingsEditor" timestamp="1604306896620">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1682" y="118" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603094827770" />
+    <state x="1682" y="118" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604306896620" />
     <state x="141" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603075336391" />
     <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603880391112">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603880391112" />
+    <state x="1458" y="92" width="1736" height="856" key="dock-window-1" timestamp="1604300179934">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1458" y="92" width="1736" height="856" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604300179933" />
+    <state x="1458" y="92" width="1736" height="856" key="dock-window-2" timestamp="1604300179934">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1458" y="92" width="1736" height="856" key="dock-window-2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604300179934" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
