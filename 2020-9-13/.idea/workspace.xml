@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_pytest/Readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/report/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/require-install.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/test_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/test_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/test_xfail.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/test_xfail.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
