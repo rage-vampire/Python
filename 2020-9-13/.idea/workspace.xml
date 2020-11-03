@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze/aaa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze/test_analyse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze/test_analyse.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze/test_cprofile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn_setup/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn_setup/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_pytest/pylint.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/test_sys.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/test_sys.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test_pytest" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -75,7 +84,7 @@
       <recent name="E:\03_Python\2020-9-13\lizi_practise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_function (1)">
+  <component name="RunManager" selected="Python.test_sys">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +98,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_cprofile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020-9-13" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analyze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analyze/test_cprofile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,48 +148,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020-9-13" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_test/test_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_suit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020-9-13" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest/test_suit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,13 +169,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_sys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020-9-13" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/test_sys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_sys" />
+        <item itemvalue="Python.test_cprofile" />
         <item itemvalue="Python.test_function (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test_suite" />
-        <item itemvalue="Python.test_suit" />
-        <item itemvalue="Python.test_function" />
       </list>
     </recent_temporary>
   </component>
@@ -224,15 +233,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="565" y="226" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1600845755520" />
-    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604314720583">
+    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604385528724">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604314720583" />
+    <state x="1942" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604385528724" />
     <state x="410" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600939086933" />
-    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603783610966">
+    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604383812089">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603783610966" />
+    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604383812089" />
     <state x="2022" y="111" key="#line_find" timestamp="1602637741200">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -254,29 +263,29 @@
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604299920742" />
-    <state width="1893" height="288" key="GridCell.Tab.0.bottom" timestamp="1604319161286">
+    <state width="1459" height="241" key="GridCell.Tab.0.bottom" timestamp="1604393926888">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288275" />
-    <state width="1893" height="288" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604319161286" />
+    <state width="1459" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604393926888" />
     <state width="1339" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="288" key="GridCell.Tab.0.center" timestamp="1604319161286">
+    <state width="1459" height="241" key="GridCell.Tab.0.center" timestamp="1604393926888">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="288" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604319161286" />
+    <state width="1459" height="241" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604393926888" />
     <state width="1339" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="288" key="GridCell.Tab.0.left" timestamp="1604319161286">
+    <state width="1459" height="241" key="GridCell.Tab.0.left" timestamp="1604393926887">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="288" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604319161286" />
+    <state width="1459" height="241" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604393926887" />
     <state width="1339" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="288" key="GridCell.Tab.0.right" timestamp="1604319161286">
+    <state width="1459" height="241" key="GridCell.Tab.0.right" timestamp="1604393926888">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1893" height="288" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604319161286" />
+    <state width="1459" height="241" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604393926888" />
     <state width="1339" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
     <state width="1893" height="270" key="GridCell.Tab.1.bottom" timestamp="1604045933259">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -298,10 +307,10 @@
     </state>
     <state width="1893" height="270" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
     <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state x="1682" y="118" key="SettingsEditor" timestamp="1604306896620">
+    <state x="1682" y="118" key="SettingsEditor" timestamp="1604382440041">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1682" y="118" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604306896620" />
+    <state x="1682" y="118" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604382440041" />
     <state x="141" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603075336391" />
     <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603880391112">
       <screen x="1366" y="0" width="1920" height="1040" />
