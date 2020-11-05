@@ -20,16 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyze/aaa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyze/test_analyse" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyze/test_analyse.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyze/test_cprofile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn_setup/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn_setup/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/pylint.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/test_practise/christmas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/test_practise/parallelogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/test_practise/rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/test_practise/six-rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/test_practise/square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/test_practise/trapezoid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/test_practise/triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/test_practise/yang_hui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/test_sys.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/test_sys.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +83,8 @@
       <recent name="E:\03_Python\2020-9-13\lizi_practise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_sys">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.yang_hui">
+    <configuration name="parallelogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise/test_practise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/test_practise/parallelogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_cprofile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="six-rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analyze" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise/test_practise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analyze/test_cprofile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/test_practise/six-rectangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_function (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="trapezoid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise/test_practise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/test_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/test_practise/trapezoid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="triangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_unittest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise/test_practise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_unittest/test_suite.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/test_practise/triangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_sys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="yang_hui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise/test_practise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/test_sys.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/test_practise/yang_hui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_sys" />
-        <item itemvalue="Python.test_cprofile" />
-        <item itemvalue="Python.test_function (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.test_suite" />
+        <item itemvalue="Python.yang_hui" />
+        <item itemvalue="Python.six-rectangle" />
+        <item itemvalue="Python.trapezoid" />
+        <item itemvalue="Python.parallelogram" />
+        <item itemvalue="Python.triangle" />
       </list>
     </recent_temporary>
   </component>
@@ -263,49 +262,49 @@
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604299920742" />
-    <state width="1459" height="241" key="GridCell.Tab.0.bottom" timestamp="1604393926888">
+    <state width="1697" height="294" key="GridCell.Tab.0.bottom" timestamp="1604563644843">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288275" />
-    <state width="1459" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604393926888" />
-    <state width="1339" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1459" height="241" key="GridCell.Tab.0.center" timestamp="1604393926888">
+    <state width="1697" height="294" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604563644843" />
+    <state width="1147" height="258" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604477126243" />
+    <state width="1697" height="294" key="GridCell.Tab.0.center" timestamp="1604563644843">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1459" height="241" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604393926888" />
-    <state width="1339" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1459" height="241" key="GridCell.Tab.0.left" timestamp="1604393926887">
+    <state width="1697" height="294" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604563644843" />
+    <state width="1147" height="258" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604477126242" />
+    <state width="1697" height="294" key="GridCell.Tab.0.left" timestamp="1604563644843">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1459" height="241" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604393926887" />
-    <state width="1339" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1459" height="241" key="GridCell.Tab.0.right" timestamp="1604393926888">
+    <state width="1697" height="294" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604563644843" />
+    <state width="1147" height="258" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604477126242" />
+    <state width="1697" height="294" key="GridCell.Tab.0.right" timestamp="1604563644843">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1459" height="241" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604393926888" />
-    <state width="1339" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603165519033" />
-    <state width="1893" height="270" key="GridCell.Tab.1.bottom" timestamp="1604045933259">
+    <state width="1697" height="294" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604563644843" />
+    <state width="1147" height="258" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604477126243" />
+    <state width="1501" height="379" key="GridCell.Tab.1.bottom" timestamp="1604555143641">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="270" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
+    <state width="1501" height="379" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604555143641" />
     <state width="1345" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="270" key="GridCell.Tab.1.center" timestamp="1604045933259">
+    <state width="1501" height="379" key="GridCell.Tab.1.center" timestamp="1604555143641">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="270" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
+    <state width="1501" height="379" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604555143641" />
     <state width="1345" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="270" key="GridCell.Tab.1.left" timestamp="1604045933259">
+    <state width="1501" height="379" key="GridCell.Tab.1.left" timestamp="1604555143641">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="270" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
+    <state width="1501" height="379" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604555143641" />
     <state width="1345" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="270" key="GridCell.Tab.1.right" timestamp="1604045933259">
+    <state width="1501" height="379" key="GridCell.Tab.1.right" timestamp="1604555143641">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="270" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604045933259" />
+    <state width="1501" height="379" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604555143641" />
     <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
     <state x="1682" y="118" key="SettingsEditor" timestamp="1604382440041">
       <screen x="1366" y="0" width="1920" height="1040" />
