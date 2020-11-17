@@ -9,7 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/function" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lizi_practise" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/log" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/log" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/network" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/polymorphic" isTestSource="false" />

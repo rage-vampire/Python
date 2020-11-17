@@ -34,7 +34,7 @@ import pprint
 
 # print(os.name)
 # print(os.getcwd())       # 获取当前工作的目录
-# print(os.path.abspath('./'))    # 获取文件或文件夹的绝对路径
+print(os.path.abspath('./'))    # 获取文件或文件夹的绝对路径
 # print(os.listdir('./'))  # 返回一个包含当前目录下所有的文件和目录的列表。"./"表示当前目录，“../”表示上级目录，也可接具体的绝对路径
 # os.path.isfile('path')    # 判断指定对象是否为文件，是返回true，否则放回false
 # os.path.isdir('path')     # 判断指定对象是否为目录，是返回true，否则放回false
@@ -44,9 +44,9 @@ import pprint
 # os.path.exists('path')   # 判断文件是否存在，存在返回true，否则返回false
 # print(os.path.getsize('test_sys.py'))    # 获得文件的大小，如果为目录，返回0
 
-print(os.path.split(r'E:\Python\2020-9-13\lizi_practise'))    # os.path.split()返回路径的目录和文件（夹）名，将目录和文件（夹）名分开，即找到最后一个\，将整个路径拆分
-print(os.path.join('path', 'name'))     # 连接目录和文件名
-
+# print(os.path.split(r'E:\Python\2020-9-13\lizi_practise'))    # os.path.split()返回路径的目录和文件（夹）名，将目录和文件（夹）名分开，即找到最后一个\，将整个路径拆分
+# print(os.path.join('path', 'name'))     # 连接目录和文件名
+#
 print(os.path.basename(r'E:\Python\2020-9-13\modules\test_os.py'))   # 返回文件名
 print(os.path.dirname(r'E:\Python\2020-9-13\modules\test_os.py'))   # 返回目录
 
