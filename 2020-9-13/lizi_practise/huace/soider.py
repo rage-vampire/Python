@@ -12,6 +12,7 @@
     4、枪能装子弹，每装一颗，增加一颗
 '''
 
+
 class Soidler():
     def __init__(self, name, gun_obj=None):
         self.name = name
@@ -23,19 +24,18 @@ class Soidler():
 
 
 class Gun():
-    def __init__(self,name, bultt, max_bultt=20):
+    def __init__(self, name, bultt, max_bultt=20):
         self.name = name
         self.bultt = bultt
         self.max_bultt = max_bultt
 
     def shoot_bultt(self):
-        if self.bultt == 0 :
+        if self.bultt == 0:
             print('检查没有子弹，请装填子弹')
 
         else:
             self.bultt -= 1
             print('发射子弹成功，biubiu~~~')
-
 
     def load_bultt(self):
         if self.bultt < self.max_bultt:
@@ -44,7 +44,6 @@ class Gun():
 
 if __name__ == '__main__':
     AK47 = Gun('AK47', 10)
-    ruien = Soidler('Ruien',AK47)
+    ruien = Soidler('Ruien', AK47)
     for i in range(15):
         ruien.shoot()
-

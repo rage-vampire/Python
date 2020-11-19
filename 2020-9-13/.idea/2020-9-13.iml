@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/collections" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/data_structure" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/file" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/zmail_test" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

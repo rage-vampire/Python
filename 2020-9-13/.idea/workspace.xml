@@ -20,22 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/decorator/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/demo_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/log_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/huace/Mytime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/huace/WuMingFen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/huace/circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/huace/decorate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/huace/house.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/huace/musical_instrument.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lizi_practise/huace/soider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/log/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/log/test_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/zmail_test/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/zmail_test/email.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/zmail_test/email.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/zmail_test/user_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/zmail_test/zmail_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/zmail_test/zmail_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/2020-9-13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2020-9-13.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/yll_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/log/yll_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/test_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/test_os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lizi_practise/huace/soider.py" beforeDir="false" afterPath="$PROJECT_DIR$/lizi_practise/huace/soider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/openpyxl_test/openpyxl_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/openpyxl_test/openpyxl_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +72,10 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\03_Python\2020-9-13\test_pytest" />
+      <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\03_Python\2020-9-13\modules" />
       <recent name="E:\03_Python\2020-9-13\lizi_practise\huace" />
@@ -85,34 +83,9 @@
       <recent name="E:\03_Python\2020-9-13\modules\openpyxl_test" />
       <recent name="E:\03_Python\2020-9-13\SQL\sql_test" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\03_Python\2020-9-13\test_pytest" />
-      <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.test_demo">
-    <configuration name="decorate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020-9-13" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise/huace" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/huace/decorate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.user_email">
+    <configuration name="log_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/log/demo.py" />
+      <option name="SCRIPT_NAME" value="E:\03_Python\2020-9-13\modules\log\log_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openpyxl_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/openpyxl_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/log/test_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/openpyxl_test/openpyxl_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_os" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="user_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/zmail_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/test_os.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/zmail_test/user_email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yll_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="zmail_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,11 +156,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/zmail_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/log/yll_log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/zmail_test/zmail_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zmail_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020-9-13" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/zmail_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/zmail_test/zmail_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_demo" />
-        <item itemvalue="Python.yll_log" />
-        <item itemvalue="Python.test_os" />
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python.decorate" />
+        <item itemvalue="Python.user_email" />
+        <item itemvalue="Python.openpyxl_test" />
+        <item itemvalue="Python.zmail_test" />
+        <item itemvalue="Python.zmail_demo" />
+        <item itemvalue="Python.log_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -273,29 +267,29 @@
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604299920742" />
-    <state width="1483" height="255" key="GridCell.Tab.0.bottom" timestamp="1605582470355">
+    <state width="1503" height="269" key="GridCell.Tab.0.bottom" timestamp="1605755135413">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288275" />
-    <state width="1483" height="255" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605582470355" />
+    <state width="1503" height="269" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605755135413" />
     <state width="1142" height="3" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605181593096" />
-    <state width="1483" height="255" key="GridCell.Tab.0.center" timestamp="1605582470355">
+    <state width="1503" height="269" key="GridCell.Tab.0.center" timestamp="1605755135412">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1483" height="255" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605582470355" />
+    <state width="1503" height="269" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605755135412" />
     <state width="1142" height="3" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605181593096" />
-    <state width="1483" height="255" key="GridCell.Tab.0.left" timestamp="1605582470354">
+    <state width="1503" height="269" key="GridCell.Tab.0.left" timestamp="1605755135412">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1483" height="255" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605582470354" />
+    <state width="1503" height="269" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605755135412" />
     <state width="1142" height="3" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605181593096" />
-    <state width="1483" height="255" key="GridCell.Tab.0.right" timestamp="1605582470355">
+    <state width="1503" height="269" key="GridCell.Tab.0.right" timestamp="1605755135413">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="59" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691288274" />
-    <state width="1483" height="255" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605582470355" />
+    <state width="1503" height="269" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605755135413" />
     <state width="1142" height="3" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605181593096" />
     <state width="1697" height="147" key="GridCell.Tab.1.bottom" timestamp="1605580843055">
       <screen x="1366" y="0" width="1920" height="1040" />
