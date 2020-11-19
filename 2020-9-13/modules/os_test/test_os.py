@@ -34,7 +34,7 @@ import pprint
 
 # print(os.name)
 # print(os.getcwd())       # 获取当前工作的目录
-print(os.path.abspath('./'))    # 获取文件或文件夹的绝对路径
+print(os.path.abspath('../'))    # 获取文件或文件夹的绝对路径
 # print(os.listdir('./'))  # 返回一个包含当前目录下所有的文件和目录的列表。"./"表示当前目录，“../”表示上级目录，也可接具体的绝对路径
 # os.path.isfile('path')    # 判断指定对象是否为文件，是返回true，否则放回false
 # os.path.isdir('path')     # 判断指定对象是否为目录，是返回true，否则放回false

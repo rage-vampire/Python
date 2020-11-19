@@ -21,7 +21,7 @@ def log_time(func):
 @log_time
 def add(x):
     # time.sleep(2)
-    # print('函数执行时间为：{}'.format(datetime.now()))
+    # print('函数执行时间为：{}'.format(datetime_test.now()))
     return x**2
 
 @log_time
