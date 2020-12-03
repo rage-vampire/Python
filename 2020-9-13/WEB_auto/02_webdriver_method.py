@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @File  : webdriver_method.py
+# @File  : 02_webdriver_method.py
 # @Author: Lizi
 # @Date  : 2020/11/19
 

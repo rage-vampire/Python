@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @File  : browse_mode.py
+# @File  : 06_browse_mode.py
 # @Author: Lizi
 # @Date  : 2020/11/25
 

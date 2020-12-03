@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @File  : WebDriverWait_demo.py
+# @File  : 03_WebDriverWait_demo.py
 # @Author: Lizi
 # @Date  : 2020/11/20
 

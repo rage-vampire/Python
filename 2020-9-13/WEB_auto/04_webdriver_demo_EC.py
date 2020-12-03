@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @File  : webdriver_demo_EC.py
+# @File  : 04_webdriver_demo_EC.py
 # @Author: Lizi
 # @Date  : 2020/11/25
 
@@ -38,7 +38,7 @@ presence_of_element_located(locator)（常用）:判断一个元素存在于页�
     ("id","id属性值") 或者（By.ID,'id属性值'）
     
 """
-baidu_btn = ('id','su')
+baidu_btn = ('id', 'su')
 presence = EC.presence_of_element_located(baidu_btn)(driver)
 print(presence)
 
