@@ -50,6 +50,5 @@ class Browser:
         ele = len(WebDriverWait(self.driver, 10).until(lambda x: x.find_elements(*loc)))
         return ele
 
-    def logging(self):
-        logger = logging.getLogger()
-        logger.setLevel(level=logging.DEBUG)
+
+

@@ -43,9 +43,31 @@ driver = webdriver.Chrome()
 js = 'window.open("https://www.baidu.com")'
 driver.execute_script(js)
 
-# location.href:获取当前的URL
+
 all_handles = driver.window_handles
 driver.switch_to.window(all_handles[-1])
+# location.href:返回当前页面的URL
 url = driver.execute_script('return location.href')
-print(url)
+
+# location.hostname:返回web主机的域名
+hostname = driver.execute_script('return location.hostname')
+
+
+# location.pathname:返回当前界面的路径或文件名
+print(driver.execute_script("return location.pathname"))
+
+# location.protocol:返回使用的 web 协议
+print(driver.execute_script('return location.protocol'))
+
+# location.assign(url): 在当前界面重新载入新的网页，能返回到上个界面
+driver.execute_script('location.assign("https://www.tmall.com/")')
+
+# location.reload():重新加载当前页面，刷新
+driver.execute_script('location.reload()')
+
+
+# location.replace(url):输入的url替换当前的url,加载新的页面，不能回到上个界面
+driver.execute_script('location.replace("https://www.baidu.com")')
+
+driver.close()
 

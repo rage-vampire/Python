@@ -1,0 +1,2 @@
+2020-12-03 17:23:27,839-yll-CRITICAL-log_demo-cirtical级别的日志
+2020-12-03 17:23:27,839-yll-ERROR-log_demo-error级别的日志

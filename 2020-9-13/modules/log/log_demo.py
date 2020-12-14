@@ -14,27 +14,25 @@ class Log:
         self.log_model_name = log_model_name
         self.style = style
 
-    # def logger(self):
         self.logger = logging.getLogger(self.log_model_name)
         self.logger.setLevel(level=logging.DEBUG)
-        # return logger
 
     def get_path(self):
-        self.rp = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
-        self.path = os.path.dirname(os.path.abspath('xx.py'))
-        self.all_log_path = os.path.join(self.path, 'ALL_logs/')
-        self.error_log_path = os.path.join(self.path, 'ERROR_logs/')
+        rp = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+        path = os.path.dirname(os.path.abspath('xx.py'))
+        all_log_path = os.path.join(path, 'ALL_logs/')
+        error_log_path = os.path.join(path, 'ERROR_logs/')
         # print(all_log_path)
 
-        if not os.path.exists(self.all_log_path):
-            os.mkdir(self.all_log_path)
-        if not os.path.exists(self.error_log_path):
-            os.mkdir(self.error_log_path)
+        if not os.path.exists(all_log_path):
+            os.mkdir(all_log_path)
+        if not os.path.exists(error_log_path):
+            os.mkdir(error_log_path)
 
-        self.all_log_name = self.all_log_path + self.rp + '_all.log'
-        self.error_log_name = self.error_log_path + self.rp + '_error.log'
+        all_log_name = all_log_path + rp + '_all_log.txt'
+        error_log_name = error_log_path + rp + '_error_log.txt'
         # print(all_log_name)
-        return self.all_log_name, self.error_log_name
+        return all_log_name, error_log_name
 
     def set_formatter(self):
         self.all_log_formatter = logging.Formatter('%(asctime)s-%(name)s-%(levelname)s-%(message)s')
@@ -69,12 +67,14 @@ class Log:
         return self.logger
 
 
-if __name__ == '__main__':
-    log = Log('yll', 'file')
-    # log.main()
-    logger = log.get_log()
-    logger.critical('cirtical级别的日志')
-    logger.error('error级别的日志')
-    logger.warning('warning级别的日志')
-    logger.info('info级别的日志')
-    logger.debug('debug级别的日志')
+logger = Log('yll', 'file').get_log()
+
+# if __name__ == '__main__':
+#     log = Log('yll', 'file')
+#     # log.main()
+#     logger = log.get_log()
+#     logger.critical('cirtical级别的日志')
+#     logger.error('error级别的日志')
+#     logger.warning('warning级别的日志')
+#     logger.info('info级别的日志')
+#     logger.debug('debug级别的日志')

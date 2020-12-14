@@ -8,15 +8,18 @@ from selenium import webdriver
 import unittest
 from POM.home_page import HomePage
 from POM.init_browser import Browser
+from modules.log.log_demo import Log
 
 
-class TestCase(unittest.TestCase, HomePage):
+class TestCase(unittest.TestCase, HomePage, Browser):
 
     def setUp(self) -> None:
         self.driver = webdriver.Chrome()
         self.driver.get('https://www.baidu.com')
         # self.home_page = HomePage(driver=self.driver)
         self.browser = Browser(driver=self.driver)
+        # self.log = Log('yll', 'file')
+        # self.logger = self.log.get_log()
 
     def tearDown(self) -> None:
         import time
@@ -36,14 +39,13 @@ class TestCase(unittest.TestCase, HomePage):
                     b、点击、输入之前自动加上等待时间；
                     c、加日志信息等
         '''
-
         # self.home_page.search_input('python')
         # self.home_page.click_button_search()
-
-        self.baidu_home_page_search('python')
+        self.searchInput('python')
         times = self.wait_until_elements_count(self.search_input)
-        self.assertEqual(times, 3)
+        self.assertEqual(times, 1)
         self.click_button_search()
+        # self.logger.debug(self.search_input)
 
 
 if __name__ == '__main__':

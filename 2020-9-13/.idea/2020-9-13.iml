@@ -21,6 +21,8 @@
       <sourceFolder url="file://$MODULE_DIR$/data_structure" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/file" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/zmail_test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WEB_auto" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WEB_auto/unittest_web" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
