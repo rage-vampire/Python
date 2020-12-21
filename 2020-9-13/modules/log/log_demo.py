@@ -69,12 +69,17 @@ class Log:
 
 logger = Log('yll', 'file').get_log()
 
+"""
+    其他文件调用：
+        from log_demo.py import logger
+"""
+
 # if __name__ == '__main__':
-#     log = Log('yll', 'file')
-#     # log.main()
-#     logger = log.get_log()
-#     logger.critical('cirtical级别的日志')
-#     logger.error('error级别的日志')
-#     logger.warning('warning级别的日志')
-#     logger.info('info级别的日志')
-#     logger.debug('debug级别的日志')
+    # log = Log('yll', 'file')
+    # log.main()
+    # logger = log.get_log()
+    # logger.critical('cirtical级别的日志')
+    # logger.error('error级别的日志')
+    # logger.warning('warning级别的日志')
+    # logger.info('info级别的日志')
+    # logger.debug('debug级别的日志')

@@ -1,5 +1,0 @@
-2020-12-03 17:23:27,839-yll-CRITICAL-cirtical级别的日志
-2020-12-03 17:23:27,839-yll-ERROR-error级别的日志
-2020-12-03 17:23:27,839-yll-WARNING-warning级别的日志
-2020-12-03 17:23:27,839-yll-INFO-info级别的日志
-2020-12-03 17:23:27,839-yll-DEBUG-debug级别的日志
