@@ -6,7 +6,6 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from POM.init_browser import Browser
-from POM.log_page import Log
 from modules.log.log_demo import logger
 
 

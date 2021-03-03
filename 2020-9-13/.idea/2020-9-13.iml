@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/test_pytest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/for_while" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/function" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lizi_practise" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/log" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules" isTestSource="false" />

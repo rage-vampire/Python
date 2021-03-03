@@ -20,36 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/built_in_function/iter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/set_test/set_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/collections/nametuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/requests_test/07_authorization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/requests_test/08_session_cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/requests_test/09_session_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/requests_test/HttpRequests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/requests_test/HttpTestCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/built_in_function/iter+generaotr/generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/built_in_function/iter+generaotr/generate_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/built_in_function/iter+generaotr/iter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/built_in_function/iter+generaotr/read_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/built_in_function/iter+generaotr/斐波那契数列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/built_in_function/iter+generaotr/杨辉三角.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/built_in_function/iter+generaotr/等差数列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/built_in_function/iter+generaotr/等比数列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lizi_practise/等差数列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/mock/flask_mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/mock/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/mock/unittest_mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/websocket_test/websocket_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/2020-9-13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2020-9-13.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/.idea/collections.iml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/.idea/collections.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/defaultdict.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/defaultdict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/nametuple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/ordereddict.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/ordereddict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/log/ALL_logs/202012031715_all_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/log/ALL_logs/202012031723_all_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/log/ALL_logs/202012031724_all_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/log/ERROR_logs/202012031715_error_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/log/ERROR_logs/202012031723_error_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/log/ERROR_logs/202012031724_error_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/log/log_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/log/log_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_auto/POM/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_auto/POM/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/json_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/json/json_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lizi_practise/fib_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/lizi_practise/fib_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/collections/nametuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/nametuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/collections/ordereddict.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/collections/ordereddict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../02_Person_work/华测学习资料/04_接口测试/04《requests之http实战》-木子-2020.12.16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code/marketTest" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -93,19 +84,19 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\03_Python\2020-9-13\built_in_function" />
+      <recent name="E:\03_Python\2020-9-13\iter+generaotr" />
+      <recent name="E:\03_Python\2020-9-13" />
       <recent name="E:\03_Python\2020-9-13\modules" />
-      <recent name="E:\03_Python\2020-9-13\sanfang_depot\faker_test" />
-      <recent name="E:\03_Python\2020-9-13\WEB_auto" />
-      <recent name="E:\03_Python\2020-9-13\WEB_auto\unittest_web" />
-      <recent name="E:\03_Python\2020-9-13\modules\shelve" />
+      <recent name="E:\03_Python\2020-9-13\modules\mock\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\03_Python\2020-9-13\test_pytest" />
       <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in HttpTestCase.py">
-    <configuration name="07_authorization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.等差数列">
+    <configuration name="等差数列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +104,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/requests_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/requests_test/07_authorization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/等差数列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="杨辉三角" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020-9-13" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\03_Python\2020-9-13\iter+generaotr\杨辉三角.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,55 +159,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for HttpTestCase.TestCase.testcase_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="read_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/requests_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;HttpTestCase.TestCase.testcase_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="E:\03_Python\2020-9-13\iter+generaotr\read_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for HttpTestCase.TestCase.testcase_page" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test_sys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/requests_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/sys_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;HttpTestCase.TestCase.testcase_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in HttpTestCase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="2020-9-13" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/requests_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/modules/requests_test/HttpTestCase.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/sys_test/test_sys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in HttpTestCase.py" />
-        <item itemvalue="Python tests.Unittests for HttpTestCase.TestCase.testcase_login" />
-        <item itemvalue="Python tests.Unittests for HttpTestCase.TestCase.testcase_page" />
+        <item itemvalue="Python.等差数列" />
         <item itemvalue="Python.merge" />
-        <item itemvalue="Python.07_authorization" />
+        <item itemvalue="Python.read_file" />
+        <item itemvalue="Python.test_sys" />
       </list>
     </recent_temporary>
   </component>
@@ -273,68 +284,68 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="855" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608280207400" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608258766079">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608865791401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1601383304022" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606959888283" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608258766079" />
-    <state width="1893" height="317" key="GridCell.Tab.0.bottom" timestamp="1608533781551">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608865791401" />
+    <state width="1893" height="292" key="GridCell.Tab.0.bottom" timestamp="1608773863258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1147" height="265" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957294" />
     <state width="1446" height="261" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607395496907" />
     <state width="1142" height="3" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605181593096" />
-    <state width="1893" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608533781551" />
-    <state width="1893" height="317" key="GridCell.Tab.0.center" timestamp="1608533781551">
+    <state width="1893" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
+    <state width="1893" height="292" key="GridCell.Tab.0.center" timestamp="1608773863258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1147" height="265" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957294" />
     <state width="1446" height="261" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607395496907" />
     <state width="1142" height="3" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605181593096" />
-    <state width="1893" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608533781551" />
-    <state width="1893" height="317" key="GridCell.Tab.0.left" timestamp="1608533781550">
+    <state width="1893" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
+    <state width="1893" height="292" key="GridCell.Tab.0.left" timestamp="1608773863257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1147" height="265" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957293" />
     <state width="1446" height="261" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607395496907" />
     <state width="1142" height="3" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605181593096" />
-    <state width="1893" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608533781550" />
-    <state width="1893" height="317" key="GridCell.Tab.0.right" timestamp="1608533781551">
+    <state width="1893" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863257" />
+    <state width="1893" height="292" key="GridCell.Tab.0.right" timestamp="1608773863258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1147" height="265" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957294" />
     <state width="1446" height="261" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607395496907" />
     <state width="1142" height="3" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605181593096" />
-    <state width="1893" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608533781551" />
-    <state width="1893" height="75" key="GridCell.Tab.1.bottom" timestamp="1608368520436">
+    <state width="1893" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
+    <state width="1893" height="292" key="GridCell.Tab.1.bottom" timestamp="1608773863258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1696" height="332" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957165" />
     <state width="1696" height="332" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962977386" />
     <state width="1345" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="75" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608368520436" />
-    <state width="1893" height="75" key="GridCell.Tab.1.center" timestamp="1608368520436">
+    <state width="1893" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
+    <state width="1893" height="292" key="GridCell.Tab.1.center" timestamp="1608773863258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1696" height="332" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957165" />
     <state width="1696" height="332" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962977386" />
     <state width="1345" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="75" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608368520436" />
-    <state width="1893" height="75" key="GridCell.Tab.1.left" timestamp="1608368520435">
+    <state width="1893" height="292" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
+    <state width="1893" height="292" key="GridCell.Tab.1.left" timestamp="1608773863258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1696" height="332" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957165" />
     <state width="1696" height="332" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962977386" />
     <state width="1345" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="75" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608368520435" />
-    <state width="1893" height="75" key="GridCell.Tab.1.right" timestamp="1608368520436">
+    <state width="1893" height="292" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
+    <state width="1893" height="292" key="GridCell.Tab.1.right" timestamp="1608773863258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1696" height="332" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957165" />
     <state width="1696" height="332" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962977386" />
     <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600996349946" />
-    <state width="1893" height="75" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608368520436" />
+    <state width="1893" height="292" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
     <state x="316" y="118" key="SettingsEditor" timestamp="1608532369957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -359,6 +370,20 @@
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608111486006" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/built_in_function/iter+generaotr/杨辉三角.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/built_in_function/iter+generaotr/杨辉三角.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="lower" />

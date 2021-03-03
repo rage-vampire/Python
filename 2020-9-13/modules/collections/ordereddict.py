@@ -5,6 +5,9 @@
 # @Software: PyCharm
 
 from collections import OrderedDict
+"""
+    使用Orderdict可以按特定顺序获取键，普通的dict没有将你给的顺序作为插入顺序，而orderdict实现了该方法
+"""
 
 # 创建有序字典
 dic = OrderedDict()

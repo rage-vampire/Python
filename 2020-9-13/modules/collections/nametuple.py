@@ -29,10 +29,10 @@ print('height:', lili.height)
 # print(lili.height)
 
 #
-# def get_name():
-#     Name = namedtuple('name',['first_name','middle_name','last_name'])
-#     person = Name('aaa','bbb','ccc')
-#     return person
-#
-# name = get_name()
-# print(name.first_name)
+def get_name():
+    Name = namedtuple('name',['first_name','middle_name','last_name'])
+    person = Name('aaa','bbb','ccc')
+    return person
+
+name = get_name()
+print(name.first_name)
