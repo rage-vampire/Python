@@ -10,8 +10,8 @@ import json
 URL = "http://www.testingedu.com.cn:8000/index.php/home/Uploadify/imageUp/savepath/head_pic/pictitle/banner/dir/images.html"
 
 file = {
-    "file": ("baidu.png",          # 文件名称
-             open(r"./baidu.png", 'rb'),    # 文件路径
+    "file": ("baidu.png",  # 文件名称
+             open(r"interface_test/requests_test/baidu.png", 'rb'),  # 文件路径
              'image/png')    # 文件类型
 }
 

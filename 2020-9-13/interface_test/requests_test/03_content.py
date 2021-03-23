@@ -11,5 +11,5 @@ URL = 'https://www.baidu.com/img/flexible/logo/pc/result.png'
 res = requests.get(URL)
 
 print(res.text)
-with open('baidu.png', 'wb') as file:
+with open('interface_test/requests_test/baidu.png', 'wb') as file:
     file.write(res.content)

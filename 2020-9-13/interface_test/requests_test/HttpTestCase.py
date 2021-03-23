@@ -5,10 +5,8 @@
 # @Date  : 2020/12/18
 
 import unittest
-import json
-from requests_test.HttpRequests import HttpClientRequest
+from HttpRequests import HttpClientRequest
 from modules.log.log_demo import logger
-from BeautifulReport import BeautifulReport
 
 
 class TestCase(unittest.TestCase):
