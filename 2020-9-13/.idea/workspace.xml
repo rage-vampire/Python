@@ -20,39 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chat_robot/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/.idea/chat_robot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/app/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/chat_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/testWebsocket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/testWs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/testwebsocketed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_robot/wsapi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_test/requests_test/baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Alien_invasion/alien_invasion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Alien_invasion/bullet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Alien_invasion/game_funcation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Alien_invasion/images/ship.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Alien_invasion/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Alien_invasion/ship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Date_matplotlib/mpl_squares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httprunner_demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httprunner_demo/debugtalk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httprunner_demo/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httprunner_demo/testcases/demo_testcase_ref.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httprunner_demo/testcases/demo_testcase_ref_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httprunner_demo/testcases/demo_testcase_request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httprunner_demo/testcases/demo_testcase_request_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_test/websocket_test/websocket_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_test/websocket_test/websocket_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/2020-9-13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2020-9-13.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/mock/flask_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/mock/flask_mock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/mock/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/mock/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/mock/unittest_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/mock/unittest_mock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/01_get_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/01_get_requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/02_post_requets.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/02_post_requets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/03_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/03_content.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/04_interface_related.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/04_interface_related.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/05_cookie_related.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/05_cookie_related.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/06_post_upload_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/06_post_upload_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/07_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/07_authorization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/08_session_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/08_session_cookie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/09_session_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/09_session_token.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/HttpRequests.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/HttpRequests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/HttpTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/HttpTestCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/baidu.png" beforeDir="false" afterPath="$PROJECT_DIR$/chat_robot/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/requests_test/token_related.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/requests_test/token_related.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/websocket_test/websocket_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/websocket_test/websocket_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_test/websocket_test/websocket_demo.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code/marketTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../逆回购_实际占款天数计算" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -103,12 +89,13 @@
       <recent name="E:\03_Python\2020-9-13\modules" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\03_Python\2020-9-13\Project\Alien\images" />
       <recent name="E:\03_Python\2020-9-13\test_pytest" />
       <recent name="E:\Python\2020-9-13\lizi_practise\lizi_dir" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.chat_server">
-    <configuration name="等差数列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.websocket_client (1)">
+    <configuration name="alien_invasion (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lizi_practise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/Alien_invasion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lizi_practise/等差数列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/Alien_invasion/alien_invasion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="杨辉三角" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="websocket_client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/websocket_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\03_Python\2020-9-13\iter+generaotr\杨辉三角.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/websocket_test/websocket_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chat_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="websocket_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chat_robot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/websocket_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chat_robot/chat_server.py" />
+      <option name="SCRIPT_NAME" value="E:\03_Python\2020-9-13\interface_test\websocket_test\websocket_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flask_mock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="websocket_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/mock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/websocket_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/mock/flask_mock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/websocket_test/websocket_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,55 +179,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in unittest_mock.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/mock" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020-9-13" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\03_Python\2020-9-13\iter+generaotr\read_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/interface_test/mock/unittest_mock.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chat_server" />
-        <item itemvalue="Python.flask_mock" />
-        <item itemvalue="Python.等差数列" />
-        <item itemvalue="Python.merge" />
-        <item itemvalue="Python.read_file" />
+        <item itemvalue="Python.websocket_client (1)" />
+        <item itemvalue="Python.websocket_server" />
+        <item itemvalue="Python.websocket_client" />
+        <item itemvalue="Python tests.Unittests in unittest_mock.py" />
+        <item itemvalue="Python.alien_invasion (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -273,100 +232,71 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1776" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606448506936">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="2130" y="75" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1616739972079">
+      <screen x="1366" y="-313" width="1920" height="1040" />
     </state>
-    <state x="1776" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606448506936" />
-    <state x="1458" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606459657707">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="2130" y="75" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1616739972079" />
+    <state x="2053" y="-97" key="FileChooserDialogImpl" timestamp="1618453272503">
+      <screen x="1366" y="-313" width="1920" height="1040" />
     </state>
-    <state x="1458" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606459657707" />
-    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606994230515">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606994230515" />
-    <state width="855" height="582" key="DebuggerActiveHint" timestamp="1608280207400">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="855" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608280207400" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608865791401">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606959888283" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608865791401" />
-    <state width="1339" height="3" key="GridCell.Tab.0.bottom" timestamp="1614858671802">
+    <state x="2053" y="-97" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1618453272503" />
+    <state width="1339" height="3" key="GridCell.Tab.0.bottom" timestamp="1617851099955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="3" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1614858671802" />
-    <state width="1893" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1614823968391" />
-    <state width="1147" height="265" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957294" />
-    <state width="1446" height="261" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607395496907" />
-    <state width="1893" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
-    <state width="1339" height="3" key="GridCell.Tab.0.center" timestamp="1614858671802">
+    <state width="1339" height="3" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1616725401784" />
+    <state width="1893" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617764346740" />
+    <state width="1893" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1617109246626" />
+    <state width="1339" height="3" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617851099955" />
+    <state width="1893" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616498488104" />
+    <state width="1339" height="3" key="GridCell.Tab.0.center" timestamp="1617851099955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="3" key="GridCell.Tab.0.center/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1614858671802" />
-    <state width="1893" height="183" key="GridCell.Tab.0.center/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1614823968391" />
-    <state width="1147" height="265" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957294" />
-    <state width="1446" height="261" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607395496907" />
-    <state width="1893" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
-    <state width="1339" height="3" key="GridCell.Tab.0.left" timestamp="1614858671801">
+    <state width="1339" height="3" key="GridCell.Tab.0.center/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1616725401784" />
+    <state width="1893" height="123" key="GridCell.Tab.0.center/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617764346740" />
+    <state width="1893" height="144" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1617109246626" />
+    <state width="1339" height="3" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617851099955" />
+    <state width="1893" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616498488103" />
+    <state width="1339" height="3" key="GridCell.Tab.0.left" timestamp="1617851099955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="3" key="GridCell.Tab.0.left/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1614858671801" />
-    <state width="1893" height="183" key="GridCell.Tab.0.left/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1614823968390" />
-    <state width="1147" height="265" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957293" />
-    <state width="1446" height="261" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607395496907" />
-    <state width="1893" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863257" />
-    <state width="1339" height="3" key="GridCell.Tab.0.right" timestamp="1614858671802">
+    <state width="1339" height="3" key="GridCell.Tab.0.left/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1616725401783" />
+    <state width="1893" height="123" key="GridCell.Tab.0.left/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617764346740" />
+    <state width="1893" height="144" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1617109246625" />
+    <state width="1339" height="3" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617851099955" />
+    <state width="1893" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616498488103" />
+    <state width="1339" height="3" key="GridCell.Tab.0.right" timestamp="1617851099955">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="3" key="GridCell.Tab.0.right/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1614858671802" />
-    <state width="1893" height="183" key="GridCell.Tab.0.right/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1614823968391" />
-    <state width="1147" height="265" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957294" />
-    <state width="1446" height="261" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607395496907" />
-    <state width="1893" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
-    <state width="1893" height="292" key="GridCell.Tab.1.bottom" timestamp="1608773863258">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1339" height="3" key="GridCell.Tab.0.right/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1616725401784" />
+    <state width="1893" height="123" key="GridCell.Tab.0.right/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617764346740" />
+    <state width="1893" height="144" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1617109246626" />
+    <state width="1339" height="3" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617851099955" />
+    <state width="1893" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616498488103" />
+    <state width="1893" height="225" key="GridCell.Tab.1.bottom" timestamp="1617763994299">
+      <screen x="1366" y="-313" width="1920" height="1040" />
     </state>
-    <state width="1696" height="332" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957165" />
-    <state width="1696" height="332" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962977386" />
-    <state width="1893" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
-    <state width="1893" height="292" key="GridCell.Tab.1.center" timestamp="1608773863258">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1893" height="225" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617763994299" />
+    <state width="1893" height="225" key="GridCell.Tab.1.center" timestamp="1617763994299">
+      <screen x="1366" y="-313" width="1920" height="1040" />
     </state>
-    <state width="1696" height="332" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957165" />
-    <state width="1696" height="332" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962977386" />
-    <state width="1893" height="292" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
-    <state width="1893" height="292" key="GridCell.Tab.1.left" timestamp="1608773863258">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1893" height="225" key="GridCell.Tab.1.center/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617763994299" />
+    <state width="1893" height="225" key="GridCell.Tab.1.left" timestamp="1617763994299">
+      <screen x="1366" y="-313" width="1920" height="1040" />
     </state>
-    <state width="1696" height="332" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957165" />
-    <state width="1696" height="332" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962977386" />
-    <state width="1893" height="292" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
-    <state width="1893" height="292" key="GridCell.Tab.1.right" timestamp="1608773863258">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1893" height="225" key="GridCell.Tab.1.left/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617763994299" />
+    <state width="1893" height="225" key="GridCell.Tab.1.right" timestamp="1617763994299">
+      <screen x="1366" y="-313" width="1920" height="1040" />
     </state>
-    <state width="1696" height="332" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607561957165" />
-    <state width="1696" height="332" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962977386" />
-    <state width="1893" height="292" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608773863258" />
-    <state x="316" y="118" key="SettingsEditor" timestamp="1608532369957">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1893" height="225" key="GridCell.Tab.1.right/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617763994299" />
+    <state x="1388" y="-313" key="SettingsEditor" timestamp="1617759444174">
+      <screen x="1366" y="-313" width="1920" height="1040" />
     </state>
-    <state x="1682" y="118" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607139255537" />
-    <state x="316" y="118" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608532369957" />
+    <state x="16" y="0" key="SettingsEditor/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1616484817658" />
+    <state x="1388" y="-313" key="SettingsEditor/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617759444174" />
     <state x="175" y="32" key="Vcs.Push.Dialog.v2" timestamp="1614752297854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="32" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1614752297854" />
-    <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606962925946">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1883" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606962925946" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1608111486006">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608111486006" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
