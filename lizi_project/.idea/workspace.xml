@@ -20,26 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc96e4e4-9188-4c8d-980b-8fd05be97561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/.idea/fixture.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/report/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/report/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/test_fixture_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/test_fixture_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest/fixture/test_fixture_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../report/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../report/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shelve_test.txt.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shelve_test.txt.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shelve_test.txt.dir" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../01_HuaRui_work/04_机构部门/05_ATP 性能测试/数据解析工具/LADataAnalyzer_v815_20210128" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -98,7 +81,7 @@
       <recent name="E:\03_Python\2020-9-13" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_fixture_02">
+  <component name="RunManager" selected="Python.test_os">
     <configuration name="fixture_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2020-9-13" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,27 +116,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/fixture/fixture_03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="readline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2020-9-13" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file/readline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,16 +166,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_os" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2020-9-13" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/os_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/os_test/test_os.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_os" />
         <item itemvalue="Python.test_fixture_02" />
         <item itemvalue="Python.test_fixture_01" />
         <item itemvalue="Python.fixture_02" />
         <item itemvalue="Python.fixture_03" />
-        <item itemvalue="Python.readline" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -241,74 +225,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2130" y="75" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1616739972079">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state x="2130" y="75" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1616739972079" />
-    <state x="2005" y="-158" key="FileChooserDialogImpl" timestamp="1619095787856">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state x="2005" y="-158" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1619095787856" />
-    <state x="455" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619071953553" />
-    <state width="1893" height="308" key="GridCell.Tab.0.bottom" timestamp="1618976595357">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="317" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1618663892367" />
-    <state width="1893" height="308" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1618976595357" />
-    <state width="1893" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1617109246626" />
-    <state width="1339" height="3" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617851099955" />
-    <state width="1893" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616498488104" />
-    <state width="1893" height="308" key="GridCell.Tab.0.center" timestamp="1618976595357">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="317" key="GridCell.Tab.0.center/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1618663892365" />
-    <state width="1893" height="308" key="GridCell.Tab.0.center/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1618976595357" />
-    <state width="1893" height="144" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1617109246626" />
-    <state width="1339" height="3" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617851099955" />
-    <state width="1893" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616498488103" />
-    <state width="1893" height="308" key="GridCell.Tab.0.left" timestamp="1618976595357">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="317" key="GridCell.Tab.0.left/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1618663892348" />
-    <state width="1893" height="308" key="GridCell.Tab.0.left/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1618976595357" />
-    <state width="1893" height="144" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1617109246625" />
-    <state width="1339" height="3" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617851099955" />
-    <state width="1893" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616498488103" />
-    <state width="1893" height="308" key="GridCell.Tab.0.right" timestamp="1618976595357">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="317" key="GridCell.Tab.0.right/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1618663892366" />
-    <state width="1893" height="308" key="GridCell.Tab.0.right/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1618976595357" />
-    <state width="1893" height="144" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1617109246626" />
-    <state width="1339" height="3" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617851099955" />
-    <state width="1893" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616498488103" />
-    <state width="1893" height="225" key="GridCell.Tab.1.bottom" timestamp="1617763994299">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="225" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617763994299" />
-    <state width="1893" height="225" key="GridCell.Tab.1.center" timestamp="1617763994299">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="225" key="GridCell.Tab.1.center/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617763994299" />
-    <state width="1893" height="225" key="GridCell.Tab.1.left" timestamp="1617763994299">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="225" key="GridCell.Tab.1.left/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617763994299" />
-    <state width="1893" height="225" key="GridCell.Tab.1.right" timestamp="1617763994299">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="225" key="GridCell.Tab.1.right/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617763994299" />
-    <state x="1388" y="-313" key="SettingsEditor" timestamp="1617759444174">
-      <screen x="1366" y="-313" width="1920" height="1040" />
-    </state>
-    <state x="16" y="0" key="SettingsEditor/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1616484817658" />
-    <state x="1388" y="-313" key="SettingsEditor/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1617759444174" />
-    <state x="175" y="32" key="Vcs.Push.Dialog.v2" timestamp="1614752297854">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="175" y="32" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1614752297854" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
