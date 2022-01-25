@@ -1,0 +1,12 @@
+.idea/
+__pycache__/
+common/tool/convert_pb_py3/origin_proto/
+common/tool/convert_pb_py3/out/
+common/test_log/marketTest.log
+zmq_py3/zmq_save_files/
+/analysis/*.svg
+report/*.html
+report/assets
+report/allure/allure_result/*.json
+report/allure/allure_result/*.txt
+report/allure/allure_report
