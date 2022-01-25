@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function getmsg() {
+            var ws=new WebSocket("ws://127.0.0.1:8080")
+            console.log('success');
+            console.log(ws)
+            <!--获取服务器的返回值 -->
+            ws.onmessage=function (e) {
+                console.log(e.data)
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="getmsg()">测试</button>
+</body>
+</html>
