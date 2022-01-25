@@ -1,0 +1,211 @@
+Metadata-Version: 2.1
+Name: consolekit
+Version: 1.2.3
+Summary: Additional utilities for click.
+Author-email: Dominic Davis-Foster <dominic@davis-foster.co.uk>
+License: MIT
+Keywords: click,terminal
+Home-page: https://github.com/domdfcoding/consolekit
+Project-URL: Issue Tracker, https://github.com/domdfcoding/consolekit/issues
+Project-URL: Source Code, https://github.com/domdfcoding/consolekit
+Project-URL: Documentation, https://consolekit.readthedocs.io/en/latest
+Platform: Windows
+Platform: macOS
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Requires-Dist: click>=7.1.2
+Requires-Dist: colorama>=0.4.3; python_version < "3.10" and platform_system == "Windows"
+Requires-Dist: deprecation-alias>=0.1.1
+Requires-Dist: domdf-python-tools>=2.6.0
+Requires-Dist: mistletoe>=0.7.2
+Requires-Dist: typing-extensions>=3.7.4.3
+Provides-Extra: terminals
+Requires-Dist: psutil>=5.8.0; extra == 'terminals'
+Provides-Extra: testing
+Requires-Dist: coincidence>=0.1.0; extra == 'testing'
+Requires-Dist: pytest>=6.0.0; extra == 'testing'
+Requires-Dist: pytest-regressions>=2.0.2; extra == 'testing'
+Provides-Extra: all
+Requires-Dist: coincidence>=0.1.0; extra == 'all'
+Requires-Dist: psutil>=5.8.0; extra == 'all'
+Requires-Dist: pytest>=6.0.0; extra == 'all'
+Requires-Dist: pytest-regressions>=2.0.2; extra == 'all'
+Description-Content-Type: text/x-rst
+
+
+###########
+consolekit
+###########
+
+.. start short_desc
+
+**Additional utilities for click.**
+
+.. end short_desc
+
+.. start shields
+
+.. list-table::
+	:stub-columns: 1
+	:widths: 10 90
+
+	* - Docs
+	  - |docs| |docs_check|
+	* - Tests
+	  - |actions_linux| |actions_windows| |actions_macos| |coveralls|
+	* - PyPI
+	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
+	* - Anaconda
+	  - |conda-version| |conda-platform|
+	* - Activity
+	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
+	* - QA
+	  - |codefactor| |actions_flake8| |actions_mypy|
+	* - Other
+	  - |license| |language| |requires|
+
+.. |docs| image:: https://img.shields.io/readthedocs/consolekit/latest?logo=read-the-docs
+	:target: https://consolekit.readthedocs.io/en/latest
+	:alt: Documentation Build Status
+
+.. |docs_check| image:: https://github.com/domdfcoding/consolekit/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/consolekit/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
+
+.. |actions_linux| image:: https://github.com/domdfcoding/consolekit/workflows/Linux/badge.svg
+	:target: https://github.com/domdfcoding/consolekit/actions?query=workflow%3A%22Linux%22
+	:alt: Linux Test Status
+
+.. |actions_windows| image:: https://github.com/domdfcoding/consolekit/workflows/Windows/badge.svg
+	:target: https://github.com/domdfcoding/consolekit/actions?query=workflow%3A%22Windows%22
+	:alt: Windows Test Status
+
+.. |actions_macos| image:: https://github.com/domdfcoding/consolekit/workflows/macOS/badge.svg
+	:target: https://github.com/domdfcoding/consolekit/actions?query=workflow%3A%22macOS%22
+	:alt: macOS Test Status
+
+.. |actions_flake8| image:: https://github.com/domdfcoding/consolekit/workflows/Flake8/badge.svg
+	:target: https://github.com/domdfcoding/consolekit/actions?query=workflow%3A%22Flake8%22
+	:alt: Flake8 Status
+
+.. |actions_mypy| image:: https://github.com/domdfcoding/consolekit/workflows/mypy/badge.svg
+	:target: https://github.com/domdfcoding/consolekit/actions?query=workflow%3A%22mypy%22
+	:alt: mypy status
+
+.. |requires| image:: https://requires.io/github/domdfcoding/consolekit/requirements.svg?branch=master
+	:target: https://requires.io/github/domdfcoding/consolekit/requirements/?branch=master
+	:alt: Requirements Status
+
+.. |coveralls| image:: https://img.shields.io/coveralls/github/domdfcoding/consolekit/master?logo=coveralls
+	:target: https://coveralls.io/github/domdfcoding/consolekit?branch=master
+	:alt: Coverage
+
+.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/consolekit?logo=codefactor
+	:target: https://www.codefactor.io/repository/github/domdfcoding/consolekit
+	:alt: CodeFactor Grade
+
+.. |pypi-version| image:: https://img.shields.io/pypi/v/consolekit
+	:target: https://pypi.org/project/consolekit/
+	:alt: PyPI - Package Version
+
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/consolekit?logo=python&logoColor=white
+	:target: https://pypi.org/project/consolekit/
+	:alt: PyPI - Supported Python Versions
+
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/consolekit
+	:target: https://pypi.org/project/consolekit/
+	:alt: PyPI - Supported Implementations
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/consolekit
+	:target: https://pypi.org/project/consolekit/
+	:alt: PyPI - Wheel
+
+.. |conda-version| image:: https://img.shields.io/conda/v/domdfcoding/consolekit?logo=anaconda
+	:target: https://anaconda.org/domdfcoding/consolekit
+	:alt: Conda - Package Version
+
+.. |conda-platform| image:: https://img.shields.io/conda/pn/domdfcoding/consolekit?label=conda%7Cplatform
+	:target: https://anaconda.org/domdfcoding/consolekit
+	:alt: Conda - Platform
+
+.. |license| image:: https://img.shields.io/github/license/domdfcoding/consolekit
+	:target: https://github.com/domdfcoding/consolekit/blob/master/LICENSE
+	:alt: License
+
+.. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/consolekit
+	:alt: GitHub top language
+
+.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/consolekit/v1.2.3
+	:target: https://github.com/domdfcoding/consolekit/pulse
+	:alt: GitHub commits since tagged version
+
+.. |commits-latest| image:: https://img.shields.io/github/last-commit/domdfcoding/consolekit
+	:target: https://github.com/domdfcoding/consolekit/commit/master
+	:alt: GitHub last commit
+
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2021
+	:alt: Maintenance
+
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/consolekit
+	:target: https://pypi.org/project/consolekit/
+	:alt: PyPI - Downloads
+
+.. end shields
+
+Installation
+--------------
+
+.. start installation
+
+``consolekit`` can be installed from PyPI or Anaconda.
+
+To install with ``pip``:
+
+.. code-block:: bash
+
+	$ python -m pip install consolekit
+
+To install with ``conda``:
+
+	* First add the required channels
+
+	.. code-block:: bash
+
+		$ conda config --add channels https://conda.anaconda.org/conda-forge
+		$ conda config --add channels https://conda.anaconda.org/domdfcoding
+
+	* Then install
+
+	.. code-block:: bash
+
+		$ conda install consolekit
+
+.. end installation
+
+Additionally, for better support in terminals,
+install `psutil <https://pypi.org/project/psutil/>`_ by specifying the ``terminals`` extra:
+
+.. code-block:: bash
+
+	$ python -m pip install consolekit[terminals]
+
+or, if you installed ``consolekit`` through conda:
+
+.. code-block:: bash
+
+	$ conda install -c conda-forge psutil

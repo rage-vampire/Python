@@ -1,0 +1,3 @@
+[console_scripts]
+mistletoe = mistletoe.__main__:main
+

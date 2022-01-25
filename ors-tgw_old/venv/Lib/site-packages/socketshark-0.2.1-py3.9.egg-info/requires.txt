@@ -1,0 +1,5 @@
+aiohttp
+aioredis
+click
+structlog[dev]
+websockets

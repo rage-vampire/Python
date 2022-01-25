@@ -1,0 +1,200 @@
+Metadata-Version: 2.1
+Name: sphinx-toolbox
+Version: 1.8.2
+Summary: Box of handy tools for Sphinx 🧰 📔
+Home-page: https://github.com/domdfcoding/sphinx-toolbox
+Author: Dominic Davis-Foster
+Author-email: dominic@davis-foster.co.uk
+License: MIT License
+Project-URL: Documentation, https://sphinx-toolbox.readthedocs.io/en/latest
+Project-URL: Issue_Tracker, https://github.com/domdfcoding/sphinx-toolbox/issues
+Project-URL: Source_Code, https://github.com/domdfcoding/sphinx-toolbox
+Platform: Windows
+Platform: macOS
+Platform: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Requires-Python: >=3.6.1
+Description-Content-Type: text/x-rst
+Requires-Dist: apeye (>=0.0.4)
+Requires-Dist: autodocsumm (>=0.2.0)
+Requires-Dist: beautifulsoup4 (>=4.9.1)
+Requires-Dist: consolekit (>=0.3.1)
+Requires-Dist: docutils (>=0.16)
+Requires-Dist: domdf-python-tools (>=0.8.0)
+Requires-Dist: html5lib (>=1.1)
+Requires-Dist: importlib-resources (>=3.0.0)
+Requires-Dist: ruamel-yaml (>=0.16.12)
+Requires-Dist: sphinx (>=3.2.0)
+Requires-Dist: sphinx-autodoc-typehints (==1.11.1)
+Requires-Dist: sphinx-prompt (>=1.1.0)
+Requires-Dist: sphinx-tabs (>=1.2.1)
+Requires-Dist: tabulate (>=0.8.7)
+Requires-Dist: typing-extensions (>=3.7.4.3)
+Requires-Dist: typing-inspect (>=0.6.0)
+Provides-Extra: all
+Requires-Dist: domdf-python-tools[testing] (>=1.5.0) ; extra == 'all'
+Requires-Dist: pygments ; extra == 'all'
+Requires-Dist: pytest-regressions (>=2.0.2) ; extra == 'all'
+Requires-Dist: pytest (>=6.0.0) ; extra == 'all'
+Provides-Extra: testing
+Requires-Dist: pygments ; extra == 'testing'
+Requires-Dist: pytest (>=6.0.0) ; extra == 'testing'
+Requires-Dist: pytest-regressions (>=2.0.2) ; extra == 'testing'
+Requires-Dist: domdf-python-tools[testing] (>=1.5.0) ; extra == 'testing'
+
+###############
+sphinx-toolbox
+###############
+
+.. start short_desc
+
+**Box of handy tools for Sphinx 🧰 📔**
+
+.. end short_desc
+
+
+.. start shields
+
+.. list-table::
+	:stub-columns: 1
+	:widths: 10 90
+
+	* - Docs
+	  - |docs| |docs_check|
+	* - Tests
+	  - |travis| |actions_windows| |actions_macos| |coveralls| |codefactor| |pre_commit_ci|
+	* - PyPI
+	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
+	* - Anaconda
+	  - |conda-version| |conda-platform|
+	* - Activity
+	  - |commits-latest| |commits-since| |maintained|
+	* - Other
+	  - |license| |language| |requires| |pre_commit|
+
+.. |docs| image:: https://img.shields.io/readthedocs/sphinx-toolbox/latest?logo=read-the-docs
+	:target: https://sphinx-toolbox.readthedocs.io/en/latest
+	:alt: Documentation Build Status
+
+.. |docs_check| image:: https://github.com/domdfcoding/sphinx-toolbox/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/sphinx-toolbox/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
+
+.. |travis| image:: https://github.com/domdfcoding/sphinx-toolbox/workflows/Linux%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/sphinx-toolbox/actions?query=workflow%3A%22Linux+Tests%22
+	:alt: Linux Test Status
+
+.. |actions_windows| image:: https://github.com/domdfcoding/sphinx-toolbox/workflows/Windows%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/sphinx-toolbox/actions?query=workflow%3A%22Windows+Tests%22
+	:alt: Windows Test Status
+
+.. |actions_macos| image:: https://github.com/domdfcoding/sphinx-toolbox/workflows/macOS%20Tests/badge.svg
+	:target: https://github.com/domdfcoding/sphinx-toolbox/actions?query=workflow%3A%22macOS+Tests%22
+	:alt: macOS Test Status
+
+.. |requires| image:: https://requires.io/github/domdfcoding/sphinx-toolbox/requirements.svg?branch=master
+	:target: https://requires.io/github/domdfcoding/sphinx-toolbox/requirements/?branch=master
+	:alt: Requirements Status
+
+.. |coveralls| image:: https://img.shields.io/coveralls/github/domdfcoding/sphinx-toolbox/master?logo=coveralls
+	:target: https://coveralls.io/github/domdfcoding/sphinx-toolbox?branch=master
+	:alt: Coverage
+
+.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/sphinx-toolbox?logo=codefactor
+	:target: https://www.codefactor.io/repository/github/domdfcoding/sphinx-toolbox
+	:alt: CodeFactor Grade
+
+.. |pypi-version| image:: https://img.shields.io/pypi/v/sphinx-toolbox
+	:target: https://pypi.org/project/sphinx-toolbox/
+	:alt: PyPI - Package Version
+
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/sphinx-toolbox?logo=python&logoColor=white
+	:target: https://pypi.org/project/sphinx-toolbox/
+	:alt: PyPI - Supported Python Versions
+
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/sphinx-toolbox
+	:target: https://pypi.org/project/sphinx-toolbox/
+	:alt: PyPI - Supported Implementations
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/sphinx-toolbox
+	:target: https://pypi.org/project/sphinx-toolbox/
+	:alt: PyPI - Wheel
+
+.. |conda-version| image:: https://img.shields.io/conda/v/domdfcoding/sphinx-toolbox?logo=anaconda
+	:target: https://anaconda.org/domdfcoding/sphinx-toolbox
+	:alt: Conda - Package Version
+
+.. |conda-platform| image:: https://img.shields.io/conda/pn/domdfcoding/sphinx-toolbox?label=conda%7Cplatform
+	:target: https://anaconda.org/domdfcoding/sphinx-toolbox
+	:alt: Conda - Platform
+
+.. |license| image:: https://img.shields.io/github/license/domdfcoding/sphinx-toolbox
+	:target: https://github.com/domdfcoding/sphinx-toolbox/blob/master/LICENSE
+	:alt: License
+
+.. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/sphinx-toolbox
+	:alt: GitHub top language
+
+.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/sphinx-toolbox/v1.8.2
+	:target: https://github.com/domdfcoding/sphinx-toolbox/pulse
+	:alt: GitHub commits since tagged version
+
+.. |commits-latest| image:: https://img.shields.io/github/last-commit/domdfcoding/sphinx-toolbox
+	:target: https://github.com/domdfcoding/sphinx-toolbox/commit/master
+	:alt: GitHub last commit
+
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2020
+	:alt: Maintenance
+
+.. |pre_commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+	:target: https://github.com/pre-commit/pre-commit
+	:alt: pre-commit
+
+.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/sphinx-toolbox/master.svg
+	:target: https://results.pre-commit.ci/latest/github/domdfcoding/sphinx-toolbox/master
+	:alt: pre-commit.ci status
+
+.. end shields
+
+|
+
+Installation
+--------------
+
+.. start installation
+
+``sphinx-toolbox`` can be installed from PyPI or Anaconda.
+
+To install with ``pip``:
+
+.. code-block:: bash
+
+	$ python -m pip install sphinx-toolbox
+
+To install with ``conda``:
+
+	* First add the required channels
+
+	.. code-block:: bash
+
+		$ conda config --add channels http://conda.anaconda.org/domdfcoding
+		$ conda config --add channels http://conda.anaconda.org/conda-forge
+
+	* Then install
+
+	.. code-block:: bash
+
+		$ conda install sphinx-toolbox
+
+.. end installation
+
+
