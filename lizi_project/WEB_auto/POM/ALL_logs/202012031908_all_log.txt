@@ -1,3 +1,0 @@
-2020-12-03 19:08:37,857-yll-DEBUG-This is click operator ('id', 'kw')
-2020-12-03 19:08:37,857-yll-DEBUG-This is input message python
-2020-12-03 19:08:38,124-yll-DEBUG-This is click operator ('id', 'su')
